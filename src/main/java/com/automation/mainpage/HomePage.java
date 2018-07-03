@@ -14,7 +14,6 @@ public class HomePage extends CommonUtils{
 		driver.navigate().to(URL);
 		String title =  driver.getTitle();
 		Log.info(title);
-		
 		Log.info(" ----------------------------- ");
 		
 	}
