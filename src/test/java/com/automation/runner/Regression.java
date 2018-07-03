@@ -21,11 +21,11 @@ import cucumber.api.junit.Cucumber;
 //				"gov.uscourts.automation.utils.ExtentCucumberFormatter:target/Cucumber-Extended-Report/report.html"
 				},
 		
-//		glue = {},
+		glue = {"com.automation.teststeps","com.automation.suitesetupteardown"},
 		monochrome = true,
 		features = {
 				
-				"/src/test/resources/com/automation/feature/*"
+				"src/test/resources/com/automation/feature/OpenPage.feature",
 			}
 		
 		)
