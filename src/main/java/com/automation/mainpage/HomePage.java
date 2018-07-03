@@ -15,6 +15,8 @@ public class HomePage extends CommonUtils{
 		String title =  driver.getTitle();
 		Log.info(title);
 		
+		Log.info(" ----------------------------- ");
+		
 	}
 	
 	
