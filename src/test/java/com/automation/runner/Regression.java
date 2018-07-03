@@ -25,7 +25,7 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true,
 		features = {
 				
-				
+				"/src/test/resources/com/automation/feature/*"
 			}
 		
 		)

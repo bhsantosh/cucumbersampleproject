@@ -37,7 +37,6 @@ public class CommonSeleniumKeywords extends CommonUtils {
 	}
 
 	public void quitAllBrowser() {
-
 		Log.info("");
 		Log.warn("Driver Quit");
 		driver.quit();
