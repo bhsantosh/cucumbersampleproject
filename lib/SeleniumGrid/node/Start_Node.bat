@@ -1,0 +1,2 @@
+REM java -jar ./driver/selenium-server-standalone-2.53.0.jar -role node -hub http://localhost:4444/grid/register -Dwebdriver.chrome.driver="./driver/chromedriver.exe" -Dwebdriver.ie.driver="./driver/IEDriverServer.exe" -nodeConfig ./node/node.json
+java -Dwebdriver.chrome.driver="./driver/chromedriver.exe" -Dwebdriver.ie.driver="./driver/IEDriverServer.exe" -Dwebdriver.gecko.driver="./driver/geckodriver.exe" -jar ./driver/selenium-server-standalone-3.11.0.jar -role node -hub http://localhost:4444/grid/register -nodeConfig ./node/node.json
