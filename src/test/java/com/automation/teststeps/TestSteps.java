@@ -25,6 +25,11 @@ public class TestSteps {
 	public void user_enter_Pick_up_location_as(String loc) throws Throwable {
 	    homepage.enterPickupLocation(loc);
 	}
+	
+	@When("^user enter drop-off location as \"([^\"]*)\"$")
+	public void user_enter_drop_off_location_as(String loc) throws Throwable {
+		homepage.enterDropoffLocation(loc);
+	}
 
 	@When("^user enter Pick-up date as \"([^\"]*)\" at (\\d+) PM$")
 	public void user_enter_Pick_up_date_as_at_PM(String arg1, int arg2) throws Throwable {

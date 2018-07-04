@@ -2,6 +2,7 @@ package com.automation.mainpage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.automation.utils.CommonProperty;
@@ -12,8 +13,8 @@ import com.automation.utils.PropertyManager;
 public class HomePage extends CommonUtils{
 
 	private final String car = "//*[(@data-title='CARS')]";
-	private final String pickup = "//*[@id=\"select2-drop\"]/ul/li[4]/div";
-	private final String dropoff = "//*[contains(@id, 'select2-drop')]/div/input";
+	private final String pickup = "//*[@id='carlocations']";
+	private final String dropoff = "//*[@name=\"dropoffLocation\"]";
 	
 	public void openHotwire() {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
@@ -31,12 +32,23 @@ public class HomePage extends CommonUtils{
 	}
 
 	public void enterPickupLocation(String loc) {
+		Log.info("Entering Pickup location :: " + loc);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(pickup)));
+		Select dropdown = new Select(driver.findElement(By.xpath(pickup)));
+		dropdown.selectByVisibleText(loc);
+	}
+
+	public void enterDropoffLocation(String loc) {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		
-		Log.info("Entering location :: " + loc);
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(pickup)));
-//		driver.findElement(By.xpath(pickup)).clear();
-		driver.findElement(By.xpath(pickup)).sendKeys(loc);
+		Log.info("Entering Dropoff location :: " + loc);
+		Select dropdown = new Select(driver.findElement(By.xpath(dropoff)));
+		dropdown.selectByVisibleText(loc);
 	}
 	
 	
