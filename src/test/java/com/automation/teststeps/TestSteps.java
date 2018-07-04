@@ -15,15 +15,15 @@ public class TestSteps {
 	    homepage.openHotwire();
 	}
 	
-	@Given("^user tries to book a car in hotwire$")
-	public void user_tries_to_book_a_car_in_hotwire() throws Throwable {
+	@Given("^user tries to book a car in PHPtravels$")
+	public void user_tries_to_book_a_car_in_PHPtravels() throws Throwable {
 		homepage.openHotwire();
 		homepage.gotoCarTab();
 	}
 
 	@When("^user enter Pick-up location as \"([^\"]*)\"$")
 	public void user_enter_Pick_up_location_as(String loc) throws Throwable {
-	    homepage.enterLocation(loc);
+	    homepage.enterPickupLocation(loc);
 	}
 
 	@When("^user enter Pick-up date as \"([^\"]*)\" at (\\d+) PM$")

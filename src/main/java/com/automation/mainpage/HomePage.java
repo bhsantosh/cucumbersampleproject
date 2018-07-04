@@ -12,8 +12,8 @@ import com.automation.utils.PropertyManager;
 public class HomePage extends CommonUtils{
 
 	private final String car = "//*[(@data-title='CARS')]";
-	private final String loctype = "//*[contains(@id, 'select2-drop')]/div/input";
-	private final String locpath = "//*[contains(@id, 'select2-drop')]/div/input";
+	private final String pickup = "//*[@id=\"select2-drop\"]/ul/li[4]/div";
+	private final String dropoff = "//*[contains(@id, 'select2-drop')]/div/input";
 	
 	public void openHotwire() {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
@@ -30,12 +30,13 @@ public class HomePage extends CommonUtils{
 		driver.findElement(By.xpath(car)).click();
 	}
 
-	public void enterLocation(String loc) {
+	public void enterPickupLocation(String loc) {
+		
 		Log.info("Entering location :: " + loc);
 		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locpath)));
-		driver.findElement(By.xpath(locpath)).clear();
-		driver.findElement(By.xpath(locpath)).sendKeys(loc);
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(pickup)));
+//		driver.findElement(By.xpath(pickup)).clear();
+		driver.findElement(By.xpath(pickup)).sendKeys(loc);
 	}
 	
 	
