@@ -31,22 +31,21 @@ public class TestSteps {
 		homepage.enterDropoffLocation(loc);
 	}
 
-	@When("^user enter Pick-up date as \"([^\"]*)\" at (\\d+) PM$")
-	public void user_enter_Pick_up_date_as_at_PM(String arg1, int arg2) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	@When("^user enter Pick-up date as \"([^\"]*)\" at \"([^\"]*)\"$")
+	public void user_enter_Pick_up_date_as_at(String date, String time) throws Throwable {
+		homepage.enterPickupDate(date,time);
+	  
 	}
 
-	@When("^user enter Return-up date as \"([^\"]*)\" AT (\\d+) PM$")
-	public void user_enter_Return_up_date_as_AT_PM(String arg1, int arg2) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	@When("^user enter Return-up date as \"([^\"]*)\" at \"([^\"]*)\"$")
+	public void user_enter_Return_up_date_as_at(String date, String time) throws Throwable {
+	   homepage.enterDropoffLocation(date,time);
 	}
 
-	@When("^user select Find a Car tab$")
-	public void user_select_Find_a_Car_tab() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	@When("^user select Search tab$")
+	public void user_select_Search_tab() throws Throwable {
+		homepage.enterSearch();
+	   
 	}
 
 }

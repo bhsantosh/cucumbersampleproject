@@ -40,7 +40,8 @@ public class LocalDriverFactory {
 			//System.setProperty("webdriver.chrome.driver",
 			 //          "//Users//kaflepratik//Documents//Automation//cucumbe jars//final version of jar for Cucumber//chromedriver");
 			driver = new ChromeDriver(options);
-            return driver;
+			driver.manage().window().fullscreen();
+			return driver;
         }
         
         if (browserName.equalsIgnoreCase("IE") || browserName.equalsIgnoreCase("internetexplorer")) {

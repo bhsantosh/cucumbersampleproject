@@ -15,6 +15,11 @@ public class HomePage extends CommonUtils{
 	private final String car = "//*[(@data-title='CARS')]";
 	private final String pickup = "//*[@id='carlocations']";
 	private final String dropoff = "//*[@name=\"dropoffLocation\"]";
+	private final String pickupdate = "//*[(@name=\"pickupDate\")]";
+	private final String pickuptime = "//*[(@name =\"pickupTime\")]";
+	private final String dropupdate = "//*[(@name = \"dropoffDate\")]";
+	private final String dropuptime = "//*[(@name = \"dropoffTime\")]";
+	private final String search = "//div[@id='CARS']//button[@type='submit']/i";
 	
 	public void openHotwire() {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
@@ -49,6 +54,30 @@ public class HomePage extends CommonUtils{
 		Log.info("Entering Dropoff location :: " + loc);
 		Select dropdown = new Select(driver.findElement(By.xpath(dropoff)));
 		dropdown.selectByVisibleText(loc);
+	}
+
+	public void enterPickupDate(String date, String time) {
+		Log.info("Entering pick up date and time ::"+ date + time);
+		driver.findElement(By.xpath(pickupdate)).clear();
+		driver.findElement(By.xpath(pickupdate)).sendKeys(date);
+		Select dropdown =new Select(driver.findElement(By.xpath(pickuptime)));
+		dropdown.selectByValue(time);
+		
+				
+	}
+
+	public void enterDropoffLocation(String date, String time) {
+		Log.info("Entering Drop-off date and time ::"+ date + time);
+		driver.findElement(By.xpath(dropupdate)).clear();
+		driver.findElement(By.xpath(dropupdate)).sendKeys(date);
+		Select dropdown =new Select(driver.findElement(By.xpath(dropuptime)));
+		dropdown.selectByValue(time);
+		
+	}
+
+	public void enterSearch() {
+		Log.info("Clicking on Search tab");
+		driver.findElement(By.xpath(search)).click();
 	}
 	
 	

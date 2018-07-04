@@ -18,26 +18,26 @@ public class TearDown extends CommonUtils{
 	
 	CommonSeleniumKeywords commonselenium = new CommonSeleniumKeywords();
 	
-//	@After("@hotwire") 
-//	public void tearDown(Scenario scenario){
-//		Log.info("----------------------------------------------------");
-//		Log.info("");
-//		Log.info("");
-//		Log.info("STATUS : " + scenario.getStatus());
-//		Log.info("");
-//		Log.info("");
-//		Log.info("----------------------------------------------------");
-//		
-//		
-//		screenshot(scenario);
-//		if(driver != null){
-//			commonselenium.quitAllBrowser();
-//		}
-//		
-//		Log.info("");
-//		Log.info("");
-//		Log.endTestCase();
-//	}
+	@After("@hotwire") 
+	public void tearDown(Scenario scenario){
+		Log.info("----------------------------------------------------");
+		Log.info("");
+		Log.info("");
+		Log.info("STATUS : " + scenario.getStatus());
+		Log.info("");
+		Log.info("");
+		Log.info("----------------------------------------------------");
+		
+		
+		screenshot(scenario);
+		if(driver != null){
+			commonselenium.quitAllBrowser();
+		}
+		
+		Log.info("");
+		Log.info("");
+		Log.endTestCase();
+	}
 	
 	private void screenshot(Scenario scenario){
 		if(scenario.isFailed()){
