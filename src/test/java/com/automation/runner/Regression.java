@@ -25,8 +25,8 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true,
 		features = {
 				
-				"src/test/resources/com/automation/feature/BookACar.feature",
-//				"src/test/resources/com/automation/feature/Herokuapp.feature",
+//				"src/test/resources/com/automation/feature/BookACar.feature",
+				"src/test/resources/com/automation/feature/BookaHotel.feature",
 			}
 		
 		)

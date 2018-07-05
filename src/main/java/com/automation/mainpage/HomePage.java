@@ -20,6 +20,18 @@ public class HomePage extends CommonUtils{
 	private final String dropupdate = "//*[(@name = \"dropoffDate\")]";
 	private final String dropuptime = "//*[(@name = \"dropoffTime\")]";
 	private final String search = "//div[@id='CARS']//button[@type='submit']/i";
+	private final String hotel = "//*[(@data-title =\"HOTELS\")]";
+	private final String location = "//*[@id='select2-drop']/div/input";
+	private final String checkindate = "//*[(@name=\"checkin\")]";
+	private final String checkoutdate = "//*[(@name = \"checkout\")]";
+	private final String noguest = "//*[(@ id = \"travellersInput\")]";
+	private final String adultadd = "//*[(@ id = \"adultInput\")]";
+	private final String adultaddplus = "//*[(@id = 'adultPlusBtn')]";
+	private final String childadd = "//*[(@id = \"childInput\")]";
+	private final String Childaddplus = "//*[(@id=\"childPlusBtn\")]";
+	private final String searchhotel = "//div[@id='HOTELS']//button[@type='submit']/i";
+	
+	
 	
 	public void openHotwire() {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
@@ -78,6 +90,87 @@ public class HomePage extends CommonUtils{
 	public void enterSearch() {
 		Log.info("Clicking on Search tab");
 		driver.findElement(By.xpath(search)).click();
+	}
+
+	public void gotohoteltab() {
+		Log.info("select Hotels tab");
+		driver.findElement(By.xpath(hotel)).click();
+		
+	}
+
+	public void cityName(String cityname) {
+		Log.info("Entering City Name :: "+ cityname);
+		driver.findElement(By.xpath("//*[@id='s2id_autogen8']")).click();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(location)));
+		
+		driver.findElement(By.xpath(location)).clear();
+		driver.findElement(By.xpath(location)).sendKeys(cityname);
+//		driver.findElement(By.xpath(location)).click();
+		
+		wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//*[@class='select2-match']")));
+		driver.findElement(By.xpath("//*[@class='select2-match']")).click();
+		
+	}
+
+	public void checkIn(String checkin) {
+		Log.info("Entering Check in Date ::  " + checkin);
+		driver.findElement(By.xpath(checkindate)).click();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(checkindate)));
+		
+		driver.findElement(By.xpath(checkindate)).clear();
+		driver.findElement(By.xpath(checkindate)).sendKeys(checkin);
+	}
+
+	public void checkout(String checkout) {
+		Log.info("Entering checkout location :: "+ checkout);
+		driver.findElement(By.xpath(checkoutdate)).click ();
+		
+		driver.findElement(By.xpath(checkoutdate)).clear();
+		driver.findElement(By.xpath(checkoutdate)).sendKeys(checkout);
+	}
+
+	public void guest(String no) {
+		Log.info("Entering no of guest  ::" + no);
+		
+		String adultChild = no;
+		String [] splitvalue= adultChild.split("Adults,");
+		String adult = splitvalue[0];
+		String child1 = splitvalue[1];
+		String []child = child1.split("child");
+		String child2 = child[0];
+		int noadult = Integer.valueOf(adult.replaceAll(" ", ""));
+		int nochild = Integer.valueOf(child2.replaceAll(" ", ""));
+		
+		Log.info("Entering no of guest  ::" + adult +"::::"+ child2);
+		
+		driver.findElement(By.xpath(noguest)).click();
+		driver.findElement(By.xpath(adultadd)).clear();
+		driver.findElement(By.xpath(adultadd)).sendKeys("0");
+		
+		for(int i = 0; i< noadult; i++){
+			
+		driver.findElement(By.xpath(adultaddplus)).click();
+		
+		}
+//		driver.findElement(By.xpath(noguest)).click();
+		driver.findElement(By.xpath(childadd)).clear();
+		driver.findElement(By.xpath(childadd)).sendKeys("0");
+		
+		for(int j = 0; j< nochild; j++){
+			
+		driver.findElement(By.xpath(Childaddplus)).click();
+		
+		}
+	}
+
+	public void hotelSearch() {
+		Log.info("Click Search tab");
+		driver.findElement(By.xpath(searchhotel)).click();
 	}
 	
 	
