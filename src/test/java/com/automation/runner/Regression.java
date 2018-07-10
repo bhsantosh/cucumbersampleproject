@@ -26,7 +26,8 @@ import cucumber.api.junit.Cucumber;
 		features = {
 				
 //				"src/test/resources/com/automation/feature/BookACar.feature",
-				"src/test/resources/com/automation/feature/BookaHotel.feature",
+//				"src/test/resources/com/automation/feature/BookaHotel.feature",
+				"src/test/resources/com/automation/feature/BookaFlight.feature",
 			}
 		
 		)
