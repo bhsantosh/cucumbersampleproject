@@ -35,10 +35,16 @@ public class LocalDriverFactory {
 			options.addArguments("--cipher-suite-blacklist=0x0088,0x0087,0x0039,0x0038,0x0044,0x0045,0x0066,0x0032,0x0033,0x0016,0x0013");
 			options.addArguments("--disable-popup-blocking");
 			options.setCapability("chrome.switches", Lists.newArrayList("load-extension=/Applications/Chrome.app/Contents/MacOS/applet"));
-			driverLocation = PropertyManager.getProperty("user.dir") + CommonProperty.getProperty("driverdir") + CommonProperty.getProperty("chromedriver");
+			
+			Log.info("This is " + System.getProperty("os.name"));
+			
+			if(System.getProperty("os.name").contains("Mac")){
+				driverLocation = PropertyManager.getProperty("user.dir") + CommonProperty.getProperty("driverdir") + CommonProperty.getProperty("chromedriver.mac");
+			}else if(System.getProperty("os.name").contains("win")){
+				driverLocation = PropertyManager.getProperty("user.dir") + CommonProperty.getProperty("driverdir") + CommonProperty.getProperty("chromedriver.win");
+			}
+			
 			System.setProperty("webdriver.chrome.driver", driverLocation);
-			//System.setProperty("webdriver.chrome.driver",
-			 //          "//Users//kaflepratik//Documents//Automation//cucumbe jars//final version of jar for Cucumber//chromedriver");
 			driver = new ChromeDriver(options);
 			driver.manage().window().fullscreen();
 			return driver;
