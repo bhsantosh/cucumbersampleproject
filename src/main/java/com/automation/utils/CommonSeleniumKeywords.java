@@ -21,13 +21,13 @@ public class CommonSeleniumKeywords extends CommonUtils {
 	
 	public void switchFrame(String framename) {
 		driver.switchTo().defaultContent();
-		WebElement frame = new WebDriverWait(driver, Long.parseLong(CommonProperty.getProperty("timeout")))
+		WebElement frame = new WebDriverWait(driver, Long.parseLong(CommonProperty.getProperty("seleniumtimeout")))
 				.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("frame[name='"+ framename +"']")));
 		driver.switchTo().frame(frame);
 	}
 
 	public void switchiFrame(String framename) {
-		WebElement frame = new WebDriverWait(driver, Long.parseLong(CommonProperty.getProperty("timeout")))
+		WebElement frame = new WebDriverWait(driver, Long.parseLong(CommonProperty.getProperty("seleniumtimeout")))
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(framename)));
 		driver.switchTo().frame(frame);
 	}

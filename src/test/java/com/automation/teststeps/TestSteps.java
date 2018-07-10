@@ -7,16 +7,23 @@ import com.automation.mainpage.HomePage;
 import com.automation.mainpage.HomePageFlight;
 import com.automation.utils.Log;
 
-import cucumber.api.DataTable;
+import cucumber.api.Scenario;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.deps.com.thoughtworks.xstream.io.binary.Token.Value;
 
 public class TestSteps {
 
 	HomePage homepage = new HomePage();
 	HomePageFlight flight = new HomePageFlight();
+	
+	private Scenario scenario;
+
+	@Before
+    public void before(Scenario scenario) {
+        this.scenario = scenario;
+    }
 
 	@Given("^user opens hotwire page$")
 	public void user_opens_hotwire_page() throws Throwable {
