@@ -1,4 +1,4 @@
-package com.automation.runner;
+package com.automation.runnerphp;
 
 import org.junit.runner.RunWith;
 

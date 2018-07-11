@@ -1,10 +1,10 @@
-package com.automation.teststeps;
+package com.automation.teststeps.php;
 
 import java.util.List;
 import java.util.Map;
 
-import com.automation.mainpage.HomePage;
-import com.automation.mainpage.Flight;
+import com.automation.php.Flight;
+import com.automation.php.HomePage;
 import com.automation.utils.Log;
 
 import cucumber.api.Scenario;

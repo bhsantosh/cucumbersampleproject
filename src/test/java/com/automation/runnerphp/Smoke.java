@@ -1,4 +1,4 @@
-package com.automation.runner;
+package com.automation.runnerphp;
 
 import org.junit.runner.RunWith;
 
@@ -25,9 +25,9 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true,
 		features = {
 				
-				"src/test/resources/com/automation/feature/BookACar.feature",
-				"src/test/resources/com/automation/feature/BookaHotel.feature",
-				"src/test/resources/com/automation/feature/BookaFlight.feature",
+				"src/test/resources/com/automation/php/BookACar.feature",
+				"src/test/resources/com/automation/php/BookaHotel.feature",
+				"src/test/resources/com/automation/php/BookaFlight.feature",
 			}
 		
 		)
