@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 //        dryRun = true,
 		strict = false,
 		
-		tags = {"@done","~@ignore", "~@depricated", "~@backlog"},
+		tags = {"@smoke","~@ignore", "~@depricated", "~@backlog"},
 		
 		plugin={
 //				"pretty:target/cucumber-pretty.txt",
@@ -32,5 +32,5 @@ import cucumber.api.junit.Cucumber;
 		
 		)
 
-public class Regression {
+public class Smoke {
 }

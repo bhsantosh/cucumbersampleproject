@@ -20,6 +20,7 @@ public class TearDown extends CommonUtils{
 	
 	@After("@hotwire") 
 	public void tearDown(Scenario scenario){
+		Log.info("");
 		Log.info("----------------------------------------------------");
 		Log.info("");
 		Log.info("");
@@ -27,6 +28,7 @@ public class TearDown extends CommonUtils{
 		Log.info("");
 		Log.info("");
 		Log.info("----------------------------------------------------");
+		Log.info("");
 		
 		
 		screenshot(scenario);

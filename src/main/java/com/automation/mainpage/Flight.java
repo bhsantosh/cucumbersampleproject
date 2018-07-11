@@ -16,7 +16,7 @@ import com.automation.utils.PropertyManager;
 
 import junit.framework.Assert;
 
-public class HomePageFlight extends CommonUtils {
+public class Flight extends CommonUtils {
 
 	private final String gotoflight = "//*[(@data-title ='flights' )]";
 	private final String roundtripbutton = "//*[(@for='round')]";
@@ -38,15 +38,6 @@ public class HomePageFlight extends CommonUtils {
 	private final String infantdropdown = "//*[(@name=\"minfant\")]";
 	private final String popupdone = "//*[(@id=\"sumManualPassenger\")]";
 	private final String flightsearch = "//div[@id='flights']//button[@type='submit']";
-
-	public void openHotwire() {
-		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
-		Log.info("");
-		Log.info("Opening URL:" + URL);
-		driver.navigate().to(URL);
-		String title = driver.getTitle();
-		Log.info(title);
-	}
 
 	public void gotoflighttab() {
 

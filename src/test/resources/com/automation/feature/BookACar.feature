@@ -1,7 +1,7 @@
 @hotwire
 Feature: Book a car
 
-  @done
+  @done @smoke
   Scenario: Boook a car for a week
     Given user tries to book a car in PHPtravels
     When user enter Pick-up location as "Manchester"

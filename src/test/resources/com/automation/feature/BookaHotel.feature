@@ -4,7 +4,7 @@ Feature: Book a Hotel room
   Background: 
     Given user tries to book a Hotel room in PHPtravels
 
-  @done
+  @done @smoke
   Scenario: Book a Hotel for a week
     When user selects follow data
       | City Name | Check In | Check out | no of guest       |

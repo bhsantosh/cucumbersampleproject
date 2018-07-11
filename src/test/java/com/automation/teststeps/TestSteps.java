@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.automation.mainpage.HomePage;
-import com.automation.mainpage.HomePageFlight;
+import com.automation.mainpage.Flight;
 import com.automation.utils.Log;
 
 import cucumber.api.Scenario;
@@ -16,7 +16,7 @@ import cucumber.api.java.en.When;
 public class TestSteps {
 
 	HomePage homepage = new HomePage();
-	HomePageFlight flight = new HomePageFlight();
+	Flight flight = new Flight();
 	
 	private Scenario scenario;
 
@@ -27,12 +27,12 @@ public class TestSteps {
 
 	@Given("^user opens hotwire page$")
 	public void user_opens_hotwire_page() throws Throwable {
-		homepage.openHotwire();
+		homepage.openPHPTravels();
 	}
 
 	@Given("^user tries to book a car in PHPtravels$")
 	public void user_tries_to_book_a_car_in_PHPtravels() throws Throwable {
-		homepage.openHotwire();
+		homepage.openPHPTravels();
 		homepage.gotoCarTab();
 	}
 
@@ -71,7 +71,7 @@ public class TestSteps {
 
 	@Given("^user tries to book a Hotel room in PHPtravels$")
 	public void user_tries_to_book_a_Hotel_room_in_PHPtravels() throws Throwable {
-		homepage.openHotwire();
+		homepage.openPHPTravels();
 		homepage.gotohoteltab();
 
 	}
@@ -133,11 +133,12 @@ public class TestSteps {
 	 
 	 
 
+	
 	@Given("^User opens PHPtravels page and tried to book a fight$")
 	public void user_opens_PHPtravels_page_and_tried_to_book_a_fight() throws Throwable {
-		flight.openHotwire();
+		String url = homepage.openPHPTravels();
+		scenario.write("URL :: "+ url);
 		flight.gotoflighttab();
-
 	}
 
 	@When("^User select round trip$")

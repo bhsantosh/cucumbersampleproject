@@ -31,13 +31,7 @@
   </properties>
   
   <dependencies>
-  
-    <!-- <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency> -->
+
     
     <dependency>
       <groupId>info.cukes</groupId>
@@ -87,23 +81,7 @@
 		<groupId>com.jcraft</groupId>
 		<artifactId>jsch</artifactId>
 		<version>${jsch.version}</version>
-	</dependency>
-	
-<!-- 	<dependency>
-		<groupId>com.googlecode.totallylazy</groupId>
-        <artifactId>totallylazy</artifactId>
-        <version>${totallylazy.version}</version>
-        <scope>system</scope>
-        <systemPath>${project.basedir}/lib/totallylazy-1.20/totallylazy-1.20.jar</systemPath>
-    </dependency>
-    
-    <dependency>
-		<groupId>com.ibm.informix</groupId>
-		<artifactId>ifxjdbc</artifactId>
-		<version>3.50</version>
-		<scope>system</scope>
-        <systemPath>${project.basedir}/lib/informix/ifxjdbc/3.50/ifxjdbc-3.50.jar</systemPath>
-	</dependency> -->					 
+	</dependency>		 
  
   </dependencies>
   
@@ -133,29 +111,6 @@
             	<target>1.7</target>
             </configuration>
         </plugin>
-        	
-        <!-- <plugin>
-    		<groupId>org.codehaus.mojo</groupId>
-    		<artifactId>exec-maven-plugin</artifactId>
-    		<version>1.2.1</version>
-    		<executions>
-               <execution>
-               <id>execute-script</id>
-                    <phase>pre-integration-test</phase>
-                    <goals>
-                       <goal>java</goal>
-                    </goals>
-               </execution>
-            </executions>
-    			<configuration>
-      				<mainClass>gov.uscourts.automation.utils.SeleniumGridConnect</mainClass>
-      				<arguments>
-      					<argument>psx</argument>
-                        <argument>start</argument>
-                        <argument>${portnumber}</argument>
-                    </arguments>
-    			</configuration>
-   		</plugin> -->
             
         <plugin>
            <artifactId>maven-failsafe-plugin</artifactId>
@@ -180,17 +135,7 @@
             <groupId>net.masterthought</groupId>
             <artifactId>maven-cucumber-reporting</artifactId>
             <version>${maven-cucumber-reporting.version}</version>
-                
-            <!-- <dependencies>
-                <dependency>
-                    <groupId>com.googlecode.totallylazy</groupId>
-                    <artifactId>totallylazy</artifactId>
-                    <version>${totallylazy.version}</version>
-    				<scope>system</scope>
-    				<systemPath>${project.basedir}/lib/totallylazy-1.20/totallylazy-1.20.jar</systemPath>
-                </dependency>
-            </dependencies> -->
-                
+               
             <executions>
                 <execution>
                     <id>execution</id>
@@ -199,7 +144,77 @@
                         <goal>generate</goal>
                     </goals>
                     <configuration>
-                        <projectName>PSX Automation</projectName>
+                        <projectName>PHP Travelers</projectName>
+                        <outputDirectory>${project.build.directory}</outputDirectory>
+                        <cucumberOutput>${project.build.directory}/json/json-report.json</cucumberOutput>
+                        <enableFlashCharts>true</enableFlashCharts>
+                    </configuration>
+                </execution>
+            </executions>
+            </plugin>
+        </plugins>
+    </build>
+    </profile> 
+    
+    <profile>
+ 		<id>Smoke</id>
+ 	<build>  
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>${maven-plugin-api.version}</version>
+        </plugin>
+        
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>2.10.1</version>
+        </plugin>
+        
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.2</version>
+            <configuration>
+            	<source>1.7</source>
+            	<target>1.7</target>
+            </configuration>
+        </plugin>
+            
+        <plugin>
+           <artifactId>maven-failsafe-plugin</artifactId>
+           <version>2.11</version>
+           <configuration>
+              <includes>
+              	   <include>**/Smoke.java</include>
+              </includes>
+                    <testFailureIgnore>true</testFailureIgnore>
+              </configuration>
+           <executions>
+              <execution>
+                  <goals>
+                       <goal>integration-test</goal>
+                       <goal>verify</goal>
+                  </goals>
+              </execution>
+           </executions>
+        </plugin>
+		
+		<plugin>
+            <groupId>net.masterthought</groupId>
+            <artifactId>maven-cucumber-reporting</artifactId>
+            <version>${maven-cucumber-reporting.version}</version>
+               
+            <executions>
+                <execution>
+                    <id>execution</id>
+                    <phase>verify</phase>
+                    <goals>
+                        <goal>generate</goal>
+                    </goals>
+                    <configuration>
+                        <projectName>PHP Travelers Smoke Tests</projectName>
                         <outputDirectory>${project.build.directory}</outputDirectory>
                         <cucumberOutput>${project.build.directory}/json/json-report.json</cucumberOutput>
                         <enableFlashCharts>true</enableFlashCharts>

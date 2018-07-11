@@ -31,16 +31,14 @@ public class HomePage extends CommonUtils{
 	private final String Childaddplus = "//*[(@id=\"childPlusBtn\")]";
 	private final String searchhotel = "//div[@id='HOTELS']//button[@type='submit']/i";
 	
-	
-	
-	public void openHotwire() {
+	public String openPHPTravels() {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
 		Log.info("");
 		Log.info("Opening URL : " + URL);
 		driver.navigate().to(URL);
 		String title =  driver.getTitle();
 		Log.info(title);
-		
+		return URL;
 	}
 
 	public void gotoCarTab() {

@@ -1,7 +1,7 @@
 @hotwire @PHPtravels
 Feature: Book a flight
 
-  @ignore
+  @done @smoke
   Scenario: Book a Round trip flight
     Given User opens PHPtravels page and tried to book a fight
     When User select round trip
@@ -11,8 +11,6 @@ Feature: Book a flight
     And User enter Departing date as "9/1/2018"
     And User enter Returning date as "9/20/2018"
     And User enter no of Guest as 2 Adults, 2 Childs and 1 infant
-    #And User enter no of Guest as 1 Adult, 1 Child and 3 infants
-    #And User enter no of Guest as 1 Adults, 1 Childs and 1 infants
     Then Click on search Tab
 
   @ignore
@@ -24,7 +22,7 @@ Feature: Book a flight
       | Business    | JFK       | ALB              | 10/1/2018      | 10/20/2018     | 3 adults, 2 childs, 1 infant |
     Then Click on search Tab
 
-  @done
+  @ignore
   Scenario Outline: Book a Round trip flight
     Given User opens PHPtravels page and tried to book a fight
     When User select round trip
