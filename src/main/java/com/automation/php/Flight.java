@@ -1,4 +1,4 @@
-package com.automation.mainpage;
+package com.automation.php;
 
 import java.util.ArrayList;
 import java.util.List;

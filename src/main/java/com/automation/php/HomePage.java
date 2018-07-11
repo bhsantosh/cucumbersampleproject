@@ -1,4 +1,4 @@
-package com.automation.mainpage;
+package com.automation.php;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
