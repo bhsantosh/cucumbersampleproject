@@ -18,7 +18,7 @@ public class TearDown extends CommonUtils{
 	
 	CommonSeleniumKeywords commonselenium = new CommonSeleniumKeywords();
 	
-	@After("@hotwire") 
+	@After 
 	public void tearDown(Scenario scenario){
 		Log.info("");
 		Log.info("----------------------------------------------------");
@@ -42,7 +42,7 @@ public class TearDown extends CommonUtils{
 	}
 	
 	private void screenshot(Scenario scenario){
-		if(scenario.isFailed()){
+		/*if(scenario.isFailed()){
 			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			byte[] array = null;
 			try {
@@ -51,6 +51,15 @@ public class TearDown extends CommonUtils{
 				e.printStackTrace();
 			}
 	        scenario.embed(array, "image/png");
-		}
+		}*/
+		
+			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			byte[] array = null;
+			try {
+				array = Files.readAllBytes(scrFile.toPath());
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+	        scenario.embed(array, "image/png");
 	}
 }

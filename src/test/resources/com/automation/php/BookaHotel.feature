@@ -1,4 +1,3 @@
-@PHPtravels @hotwire
 Feature: Book a Hotel room
 
   Background: 

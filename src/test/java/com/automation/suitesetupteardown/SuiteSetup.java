@@ -15,8 +15,8 @@ public class SuiteSetup extends CommonUtils{
 	
 	public WebDriver lunchdriver;
 	
-	@Before("@hotwire")
-	public void beforeScenarioForCalculator(Scenario scenario) {
+	@Before
+	public void beforeScenarioPhp(Scenario scenario) {
 		Log.startTestCase();
 		Log.info("");
 		Log.info("------------------------ TESTCASE SETUP --------------------------------- ");
@@ -33,6 +33,25 @@ public class SuiteSetup extends CommonUtils{
 		Log.info("----------------------------------------------------");
 	    Log.info("");
 	}
+	
+	/*@Before("@internet")
+	public void beforeScenarioInternet(Scenario scenario) {
+		Log.startTestCase();
+		Log.info("");
+		Log.info("------------------------ TESTCASE SETUP --------------------------------- ");
+		printvariables();
+		Log.info("---------------------------------------------------------------------------");
+	    Log.info("");
+	    Log.info("");
+		lunchbrowser();
+		Log.info("");
+		Log.info("----------------------------------------------------");
+	    Log.info("");
+		Log.info("Scenario :: " + scenario.getName());
+		Log.info("");
+		Log.info("----------------------------------------------------");
+	    Log.info("");
+	}*/
 	
 	public void printvariables(){
 		Log.info("");
