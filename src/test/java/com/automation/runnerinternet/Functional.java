@@ -28,7 +28,9 @@ import cucumber.api.junit.Cucumber;
 //				"src/test/resources/com/automation/internet/ChallengingDOM.feature",
 //				"src/test/resources/com/automation/internet/Checkboxes.feature",
 //				"src/test/resources/com/automation/internet/Disappearingelements.feature",
-				"src/test/resources/com/automation/internet/DragandDrop.feature",
+//				"src/test/resources/com/automation/internet/DragandDrop.feature",
+				"src/test/resources/com/automation/internet/Dropdown.feature",
+
 
 
 

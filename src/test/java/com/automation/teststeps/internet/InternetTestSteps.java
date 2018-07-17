@@ -154,4 +154,23 @@ public class InternetTestSteps {
 		internethomepage.pictureA();
 	}
 
+	@Given("^User open internet page$")
+	public void user_open_internet_page() throws Throwable {
+		internethomepage.openInternetpage();
+	}
+
+	@When("^User goto Dropdown page$")
+	public void user_goto_Dropdown_page() throws Throwable {
+		internethomepage.clickDropdown();
+	}
+
+	@Then("^user select Option (\\d+)$")
+	public void user_select_first_Option(int i) throws Throwable {
+		internethomepage.selectOption(i);
+	}
+
+	@Then("^user select \"([^\"]*)\"$")
+	public void user_select_first_Option(String i) throws Throwable {
+		internethomepage.selectOption(i);
+	}
 }

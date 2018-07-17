@@ -1,18 +1,14 @@
 package com.automation.internet;
 
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.InputEvent;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.automation.utils.CommonProperty;
@@ -30,6 +26,8 @@ public class InternetHomepage extends CommonUtils {
 	private final static String DRAGTAB = "//*[contains(text(),'Drag and Drop')]";
 	private final static String FIRSTBOX = "//*[(@id = 'column-a')]";
 	private final static String SECBOX = "//*[(@id = 'column-b')]";
+	private final static String DROPDOWNTAB = "//*[contains( text(),'Dropdown')]";
+	private final static String DROPDOWN = "//*[(@id = 'dropdown')]";
 
 	public void loginWithBasicAuth(String username, String password) {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
@@ -265,4 +263,20 @@ public class InternetHomepage extends CommonUtils {
 
 	}
 
+	public void clickDropdown() {
+		Log.info("User select Drop down tab");
+		driver.findElement(By.xpath(DROPDOWNTAB)).click();
+	}
+
+	public void selectOption(int i) {
+		Log.info("Selecting Option :: " + i);
+		Select dropdown = new Select(driver.findElement(By.xpath(DROPDOWN)));
+		dropdown.selectByValue("" + i);
+	}
+
+	public void selectOption(String text) {
+		Log.info("Selecting :: " + text);
+		Select dropdown = new Select(driver.findElement(By.xpath(DROPDOWN)));
+		dropdown.selectByVisibleText(text);
+	}
 }

@@ -61,9 +61,6 @@ public class Flight extends CommonUtils {
 		Select dropdown = new Select(driver.findElement(By.xpath(cabinclass)));
 		dropdown.selectByValue(cal.toLowerCase());
 
-		// String xpath = "//*[(@name = 'cabinclass')]/option[@value='"+
-		// cal.toLowerCase() +"']";
-		// driver.findElement(By.xpath(xpath)).click();
 	}
 
 	public void verifyFlightClassDropdown() {
@@ -127,23 +124,6 @@ public class Flight extends CommonUtils {
 		driver.findElement(By.xpath(returndate)).clear();
 		driver.findElement(By.xpath(returndate)).sendKeys(returndates);
 	}
-
-	// public void noOfGuest(String guest) {
-	//
-	// Log.info("Selecting no of Guest::"+ guest);
-	//
-	// driver.findElement(By.xpath(guestno)).click();
-	//
-	// WebDriverWait wait = new WebDriverWait(driver,10);
-	// wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(adult)));
-	// driver.findElement(By.xpath(adult)).click();
-	// Select dropdown = new Select(driver.findElement(By.xpath(adult)));
-	// dropdown.selectByValue(guest);
-	// driver.findElement(By.xpath(popupdone)).click();
-	//
-	//
-	//
-	// }
 
 	public void enterNoOfGuest(int adult, int child, int infant) {
 
