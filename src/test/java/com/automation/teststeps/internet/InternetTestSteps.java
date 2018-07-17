@@ -139,4 +139,19 @@ public class InternetTestSteps {
 		internethomepage.verifyGallerytabVisible();
 	}
 
+	@Given("^User opens Internet page$")
+	public void user_opens_Internet_page() throws Throwable {
+		internethomepage.openInternetpage();
+	}
+
+	@When("^User goto Drag and Drop page$")
+	public void user_goto_Drag_and_Drop_page() throws Throwable {
+		internethomepage.dragAndDrop();
+	}
+
+	@When("^User Drag picture A and drop in picutre B place$")
+	public void user_Drag_picture_A_and_drop_in_picutre_B_place() throws Throwable {
+		internethomepage.pictureA();
+	}
+
 }

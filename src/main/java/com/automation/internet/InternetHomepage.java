@@ -1,10 +1,17 @@
 package com.automation.internet;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.InputEvent;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -20,6 +27,9 @@ public class InternetHomepage extends CommonUtils {
 	private final static String CHECKBOX = "//*[contains(text(),'Checkboxes')]";
 	private final static String DISELEMENT = "//*[contains(text(),'Disappearing Elements')]";
 	private final static String DISAPPEAR = "//*[(@ href = '/gallery/')]";
+	private final static String DRAGTAB = "//*[contains(text(),'Drag and Drop')]";
+	private final static String FIRSTBOX = "//*[(@id = 'column-a')]";
+	private final static String SECBOX = "//*[(@id = 'column-b')]";
 
 	public void loginWithBasicAuth(String username, String password) {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
@@ -229,6 +239,30 @@ public class InternetHomepage extends CommonUtils {
 			throw new IllegalArgumentException("Gallery tab is not Visible");
 		}
 		Log.info("Gallery is visible");
+	}
+
+	public void dragAndDrop() {
+		Log.info("Opening Drag and Drop page");
+		driver.findElement(By.xpath(DRAGTAB)).click();
+
+	}
+
+	public void pictureA() {
+		WebElement from = driver.findElement(By.xpath(FIRSTBOX));
+		String firstBoxText = from.getText();
+		Log.info("text in first box is " + firstBoxText);
+		WebElement to = driver.findElement(By.xpath(SECBOX));
+		String secBoxText = to.getText();
+		Log.info("text in 2nd box is " + secBoxText);
+
+		Point coordinates1 = from.getLocation();
+		Point coordinates2 = to.getLocation();
+		Log.info("X ::" + coordinates1.getX() + " Y ::  " + coordinates1.getY());
+		Log.info("X ::" + coordinates2.getX() + " Y ::  " + coordinates2.getY());
+
+		new Actions(driver).clickAndHold(from).moveByOffset(coordinates2.getX(), coordinates2.getY()).release()
+				.perform();
+
 	}
 
 }
