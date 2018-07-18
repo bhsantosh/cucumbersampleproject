@@ -199,4 +199,25 @@ public class InternetTestSteps {
 	public void user_verifies_checkbox_is_added_back() throws Throwable {
 		internethomepage.verifyCheckboxIsAdded();
 	}
+
+	@When("^User goto Dynamic loading page$")
+	public void user_goto_Dynamic_loading_page() throws Throwable {
+		internethomepage.clickDynamicLoading();
+	}
+
+	@When("^User click on example (\\d+)$")
+	public void user_click_on_example(int example) throws Throwable {
+		internethomepage.clickExample(example);
+	}
+
+	@When("^User click on Start button$")
+	public void user_click_on_Start_button() throws Throwable {
+		internethomepage.clickStart();
+	}
+
+	@Then("^User verifies message displayed$")
+	public void user_verifies_message_displayed() throws Throwable {
+		internethomepage.verifyMessage();
+
+	}
 }

@@ -33,6 +33,12 @@ public class InternetHomepage extends CommonUtils {
 	private final static String DYNAMICBUTTONADD = "//*[(@id = 'btn') and contains(text(),'Add')]";
 	private final static String DYNAMICMESSAGE = "//*[(@id = 'message')]";
 	private final static String DYNAMICCHECKBOX = "//*[(@id = 'checkbox')]";
+	private final static String DYNAMICLOAD = "//*[contains(text(),'Dynamic Loading')]";
+	// private final static String EXAMPLE1 = "//*[(@href
+	// ='/dynamic_loading/"+i+"')]";
+	private final static String START = "//*[contains (text(), 'Start')]";
+	private final static String GIF = "//*[contains(@src,'loader.gif')]";
+	private final static String FINAL = "//*[(@id=\"finish\")]";
 
 	public void loginWithBasicAuth(String username, String password) {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
@@ -332,7 +338,6 @@ public class InternetHomepage extends CommonUtils {
 			Log.info("Adding Check box");
 			button.click();
 			new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath(DYNAMICBUTTONREMOVE)));
-
 		} else {
 			Log.info("Add button is not available");
 		}
@@ -355,6 +360,40 @@ public class InternetHomepage extends CommonUtils {
 		} else {
 			Log.error("Check box is not added");
 			throw new IllegalArgumentException("Check box is not added");
+		}
+
+	}
+
+	public void clickDynamicLoading() {
+		Log.info("Clicking on Dynamic Loading tab");
+		driver.findElement(By.xpath(DYNAMICLOAD)).click();
+
+	}
+
+	public void clickExample(int i) {
+		Log.info("clicking on Example " + i);
+		String xpath = "//*[(@href = '/dynamic_loading/" + i + "')]";
+		driver.findElement(By.xpath(xpath)).click();
+
+	}
+
+	public void clickStart() {
+		Log.info("Clicking on Start button");
+		driver.findElement(By.xpath(START)).click();
+
+		new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath(GIF)));
+		new WebDriverWait(driver, 10).until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(GIF)));
+
+	}
+
+	public void verifyMessage() {
+		Log.info("Verifying Correct Message is Displayed or not");
+		String message = driver.findElement(By.xpath(FINAL)).getText();
+		if (message.equals("Hello World!")) {
+			Log.info("Valid Message is displayed :: " + message);
+		} else {
+			Log.info("Incorrect message is displayed");
+			throw new IllegalArgumentException("Invalid message is displayed Should be ::'Hello World!'");
 		}
 
 	}
