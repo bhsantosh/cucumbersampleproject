@@ -28,6 +28,11 @@ public class InternetHomepage extends CommonUtils {
 	private final static String SECBOX = "//*[(@id = 'column-b')]";
 	private final static String DROPDOWNTAB = "//*[contains( text(),'Dropdown')]";
 	private final static String DROPDOWN = "//*[(@id = 'dropdown')]";
+	private final static String DYNAMICTAB = "//*[contains (text(),'Dynamic Controls')]";
+	private final static String DYNAMICBUTTONREMOVE = "//*[(@id = 'btn') and contains(text(),'Remove')]";
+	private final static String DYNAMICBUTTONADD = "//*[(@id = 'btn') and contains(text(),'Add')]";
+	private final static String DYNAMICMESSAGE = "//*[(@id = 'message')]";
+	private final static String DYNAMICCHECKBOX = "//*[(@id = 'checkbox')]";
 
 	public void loginWithBasicAuth(String username, String password) {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
@@ -278,5 +283,79 @@ public class InternetHomepage extends CommonUtils {
 		Log.info("Selecting :: " + text);
 		Select dropdown = new Select(driver.findElement(By.xpath(DROPDOWN)));
 		dropdown.selectByVisibleText(text);
+	}
+
+	public void clickDynamicControls() {
+		Log.info("User select Dynamic controls tab");
+		driver.findElement(By.xpath(DYNAMICTAB)).click();
+	}
+
+	public void removeCheckbox() {
+		Log.info("Removing Check box");
+		WebElement button = (driver.findElement(By.xpath(DYNAMICBUTTONREMOVE)));
+		String buttonName = button.getText();
+		if (buttonName.equalsIgnoreCase("Remove")) {
+			button.click();
+			new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath(DYNAMICBUTTONADD)));
+		}
+	}
+
+	public void verifyCheckboxIsRemoved() {
+		WebElement message = (driver.findElement(By.xpath(DYNAMICMESSAGE)));
+		if (message.getText().equals("It's gone!")) {
+			Log.info("Message is displayed correctly");
+		} else {
+			Log.error("Check box is Not Removed");
+			throw new IllegalArgumentException("Check box is not Removed");
+		}
+
+		try {
+			Boolean checkbox = driver.findElement(By.xpath(DYNAMICCHECKBOX)).isEnabled();
+			Boolean checkbox1 = driver.findElement(By.xpath(DYNAMICCHECKBOX)).isDisplayed();
+
+			if (checkbox && checkbox1) {
+				Log.error("Check box is Not Removed");
+				throw new IllegalArgumentException("Check box is not Removed");
+			} else {
+				Log.info("Check box is Successfully Removed with Valid Message");
+			}
+		} catch (NoSuchElementException e) {
+			Log.info("Check box is not  present");
+		}
+
+	}
+
+	public void addCheckbox() {
+		WebElement button = (driver.findElement(By.xpath(DYNAMICBUTTONADD)));
+		String buttonName = button.getText();
+		if (buttonName.equalsIgnoreCase("Add")) {
+			Log.info("Adding Check box");
+			button.click();
+			new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(By.xpath(DYNAMICBUTTONREMOVE)));
+
+		} else {
+			Log.info("Add button is not available");
+		}
+	}
+
+	public void verifyCheckboxIsAdded() {
+		WebElement message = (driver.findElement(By.xpath(DYNAMICMESSAGE)));
+		Boolean checkbox = driver.findElement(By.xpath(DYNAMICCHECKBOX)).isEnabled();
+		Boolean checkbox1 = driver.findElement(By.xpath(DYNAMICCHECKBOX)).isDisplayed();
+
+		if (message.getText().equals("It's back!")) {
+			Log.info("Message is displayed correctly after adding checkbox");
+		} else {
+			Log.error("Message is not displayed correctly");
+			throw new IllegalArgumentException("Message is not displayed correctly");
+		}
+
+		if (checkbox && checkbox1) {
+			Log.info("Check box is added back successfully");
+		} else {
+			Log.error("Check box is not added");
+			throw new IllegalArgumentException("Check box is not added");
+		}
+
 	}
 }

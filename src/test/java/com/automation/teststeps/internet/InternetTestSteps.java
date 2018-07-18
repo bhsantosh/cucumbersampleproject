@@ -173,4 +173,30 @@ public class InternetTestSteps {
 	public void user_select_first_Option(String i) throws Throwable {
 		internethomepage.selectOption(i);
 	}
+
+	@When("^User goto Dynamic Controls page$")
+	public void user_goto_Dynamic_Controls_page() throws Throwable {
+		internethomepage.clickDynamicControls();
+	}
+
+	@Then("^User removes the checkbox$")
+	public void user_remove_the_checkbox() throws Throwable {
+		internethomepage.removeCheckbox();
+	}
+
+	@Then("^user verifies checkbox is removed$")
+	public void user_verifies_checkbox_is_removed() throws Throwable {
+		internethomepage.verifyCheckboxIsRemoved();
+	}
+
+	@Then("^User Add back the checbox$")
+	public void user_Add_back_the_checbox() throws Throwable {
+		internethomepage.addCheckbox();
+
+	}
+
+	@Then("^user verifies checkbox is added back$")
+	public void user_verifies_checkbox_is_added_back() throws Throwable {
+		internethomepage.verifyCheckboxIsAdded();
+	}
 }
