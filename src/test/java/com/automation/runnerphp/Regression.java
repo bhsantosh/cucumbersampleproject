@@ -10,24 +10,21 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 //        dryRun = true,
 		strict = false,
-		
 		tags = {"@done","~@ignore", "~@depricated", "~@backlog"},
-		
 		plugin={
-//				"pretty:target/cucumber-pretty.txt",
-//				"html:target/html-report",
+				"pretty:target/cucumber-pretty.txt",
+				"html:target/html-report",
 			    "json:target/json/json-report.json",
-//				"junit:target/junit/junit-report.xml",
-//				"usage:target/cucumber-usage.json",
+				"junit:target/junit/junit-report.xml",
+				"usage:target/cucumber-usage.json",
 				},
 		
 		glue = {"com.automation.teststeps","com.automation.suitesetupteardown"},
 		monochrome = true,
 		features = {
-				
-				"src/test/resources/com/automation/feature/BookACar.feature",
-				"src/test/resources/com/automation/feature/BookaHotel.feature",
-				"src/test/resources/com/automation/feature/BookaFlight.feature",
+				"src/test/resources/com/automation/php/BookACar.feature",
+//				"src/test/resources/com/automation/php/BookaHotel.feature",
+//				"src/test/resources/com/automation/php/BookaFlight.feature",
 			}
 		
 		)

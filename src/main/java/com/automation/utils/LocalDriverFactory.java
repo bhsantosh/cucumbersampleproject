@@ -40,10 +40,10 @@ public class LocalDriverFactory {
 			
 			if(System.getProperty("os.name").contains("Mac")){
 				driverLocation = PropertyManager.getProperty("user.dir") + CommonProperty.getProperty("driverdir") + CommonProperty.getProperty("chromedriver.mac");
-			}else if(System.getProperty("os.name").contains("win")){
+			}else if(System.getProperty("os.name").contains("Win")){
 				driverLocation = PropertyManager.getProperty("user.dir") + CommonProperty.getProperty("driverdir") + CommonProperty.getProperty("chromedriver.win");
 			}
-			
+			Log.highlight(driverLocation);
 			System.setProperty("webdriver.chrome.driver", driverLocation);
 			driver = new ChromeDriver(options);
 			driver.manage().window().fullscreen();

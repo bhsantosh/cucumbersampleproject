@@ -30,7 +30,7 @@ public class TestSteps {
 		homepage.openPHPTravels();
 	}
 
-	@Given("^user tries to book a car in PHPtravels$")
+	@Then("^user tries to book a car in PHPtravels$")
 	public void user_tries_to_book_a_car_in_PHPtravels() throws Throwable {
 		homepage.openPHPTravels();
 		homepage.gotoCarTab();
