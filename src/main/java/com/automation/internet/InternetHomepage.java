@@ -39,6 +39,7 @@ public class InternetHomepage extends CommonUtils {
 	private final static String START = "//*[contains (text(), 'Start')]";
 	private final static String GIF = "//*[contains(@src,'loader.gif')]";
 	private final static String FINAL = "//*[(@id=\"finish\")]";
+	
 
 	public void loginWithBasicAuth(String username, String password) {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
