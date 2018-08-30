@@ -5,10 +5,12 @@ import java.util.Map;
 
 import com.automation.php.Flight;
 import com.automation.php.HomePage;
+import com.automation.php.Visa;
 import com.automation.utils.Log;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.Before;
+import cucumber.api.java.en.But;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -17,6 +19,7 @@ public class TestSteps {
 
 	HomePage homepage = new HomePage();
 	Flight flight = new Flight();
+	Visa visa = new Visa();
 	
 	private Scenario scenario;
 
@@ -257,7 +260,24 @@ public class TestSteps {
 	public void user_enter_no_of_Guest_as_Adults_Childs_and_infant(int arg1, int arg2, int arg3, String arg4) throws Throwable {
 		flight.enterNoOfGuest(arg1,arg2,arg3);
 
-	}   
+	}  
+	
+	@Given("^user tries to book a visa in PHPtravels$")
+	public void user_tries_to_book_a_visa_in_PHPtravels() throws Throwable {
+		homepage.openPHPTravels();
+		homepage.gotoVisaTab();
+	}
+
+	@But("^user selects origin country as \"([^\"]*)\"$")
+	public void user_selects_origin_country_as(String country) throws Throwable {
+	    visa.selectOriginCountry(country);
+	}
+
+	@When("^user select destination country as \"([^\"]*)\"$")
+	public void user_select_destination_country_as(String arg1) throws Throwable {
+	    
+	}
+
 
 	}
 

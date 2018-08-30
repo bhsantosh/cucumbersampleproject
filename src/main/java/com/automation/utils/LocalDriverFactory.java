@@ -43,7 +43,7 @@ public class LocalDriverFactory {
 			}else if(System.getProperty("os.name").contains("Win")){
 				driverLocation = PropertyManager.getProperty("user.dir") + CommonProperty.getProperty("driverdir") + CommonProperty.getProperty("chromedriver.win");
 			}
-			Log.highlight(driverLocation);
+			Log.info("Driver Location :: " + driverLocation);
 			System.setProperty("webdriver.chrome.driver", driverLocation);
 			driver = new ChromeDriver(options);
 			driver.manage().window().fullscreen();

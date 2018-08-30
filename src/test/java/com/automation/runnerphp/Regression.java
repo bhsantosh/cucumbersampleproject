@@ -22,9 +22,10 @@ import cucumber.api.junit.Cucumber;
 		glue = {"com.automation.teststeps","com.automation.suitesetupteardown"},
 		monochrome = true,
 		features = {
-				"src/test/resources/com/automation/php/BookACar.feature",
+//				"src/test/resources/com/automation/php/BookACar.feature",
 //				"src/test/resources/com/automation/php/BookaHotel.feature",
 //				"src/test/resources/com/automation/php/BookaFlight.feature",
+				"src/test/resources/com/automation/php/BookAVisa.feature",
 			}
 		
 		)
