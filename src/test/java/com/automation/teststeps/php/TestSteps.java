@@ -274,7 +274,8 @@ public class TestSteps {
 	}
 
 	@When("^user select destination country as \"([^\"]*)\"$")
-	public void user_select_destination_country_as(String arg1) throws Throwable {
+	public void user_select_destination_country_as(String country) throws Throwable {
+		visa.selectdestinationcountry(country);
 	    
 	}
 

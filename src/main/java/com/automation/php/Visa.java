@@ -18,4 +18,10 @@ public class Visa extends CommonUtils {
 		
 	}
 
+	public void selectdestinationcountry(String country) {
+		Log.info("Selecting Destination Country ::" + country);
+//		Select dropdown = 
+		
+	}
+
 }
