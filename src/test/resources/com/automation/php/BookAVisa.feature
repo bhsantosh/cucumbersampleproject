@@ -1,9 +1,9 @@
 Feature: Book a Visa
 
   @ignore
-  Scenario: Search for Tours details
-    Given user tries to book a tours in PHPtravels
-    When user selects City name as "City"
+  Scenario: Search for visa details
+    Given user tries to book a visa in PHPtravels
+    When user selects origin country as "City"
     And user select destination country as "United States"
     And user select Search in visa tab
 

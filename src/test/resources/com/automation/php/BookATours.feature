@@ -1,30 +1,10 @@
-Feature: Book a Visa
-
-  @ignore
-  Scenario: Search for visa details
-    Given user tries to book a visa in PHPtravels
-    When user selects origin country as "Nepal"
-    And user select destination country as "United States"
-    And user select Search in visa tab
-
-  @multiple_countries @ignore
-  Scenario: Selecting countries from data provided
-    Given user tries to book a visa in PHPtravels
-    When user selects following visa details
-      | Origin Country | Destination Country |
-      | Nepal          | United States       |
-      | India          | United States       |
-      | China          | United States       |
+Feature: Book a Tours
 
   @done
-  Scenario Outline: Selecting countries from data provided
-    Given user tries to book a visa in PHPtravels
-    When user selects origin country "<Origin Country>"
-    And user selects destination country "<Destination Country>"
-    And user select Search in visa tab
-
-    Examples: 
-      | Origin Country | Destination Country |
-      | Nepal          | United States       |
-      | India          | United States       |
-      | China          | United States       |
+  Scenario: Search for Tours details
+  Given user tries to book tours 
+   When user selects City name as "6 days around Thailand"
+   And user selects startdate as "01/01/2019" 
+   And user selects guests as "2 Guests"
+And user selects tour type as "Private"
+And user selects search in Tours page 
