@@ -31,6 +31,7 @@ public class HomePage extends CommonUtils{
 	private final String Childaddplus = "//*[(@id=\"childPlusBtn\")]";
 	private final String searchhotel = "//div[@id='HOTELS']//button[@type='submit']/i";
 	private final String visa = "//*[contains(@href,'VISA')]";
+	private final String tours="#TOURS";
 	
 	public String openPHPTravels() {
 		String URL = CommonProperty.getProperty("url" + PropertyManager.getProperty("zone").toUpperCase());
@@ -175,6 +176,12 @@ public class HomePage extends CommonUtils{
 	public void gotoVisaTab() {
 		Log.info("Goto Visa");
 		driver.findElement(By.xpath(visa)).click();
+	}
+	
+	public void gotoToursTab(){
+	Log.info("Goto Tours");
+	driver.findElement(By.xpath(tours)).click();
+		
 	}
 	
 	

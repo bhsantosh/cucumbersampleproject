@@ -20,6 +20,7 @@ public class TestSteps {
 	HomePage homepage = new HomePage();
 	Flight flight = new Flight();
 	Visa visa = new Visa();
+//	Tours tours=new Tours();
 
 	private Scenario scenario;
 
@@ -327,6 +328,37 @@ public class TestSteps {
 	public void user_clicks_subscribe_button() throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
 
+	}
+	@Given("^user tries to book tours$")
+	public void user_tries_to_book_tours() throws Throwable {
+		homepage.openPHPTravels();
+		homepage.gotoToursTab();
+		
+	}
+
+	@When("^user selects City name as \"([^\"]*)\"$")
+	public void user_selects_City_name_as(String arg1) throws Throwable {
+	  
+	}
+
+	@When("^user selects startdate as \"([^\"]*)\"$")
+	public void user_selects_startdate_as(String arg1) throws Throwable {
+	   
+	}
+
+	@When("^user selects guests as \"([^\"]*)\"$")
+	public void user_selects_guests_as(String arg1) throws Throwable {
+	   
+	}
+
+	@When("^user selects tour type as \"([^\"]*)\"$")
+	public void user_selects_tour_type_as(String arg1) throws Throwable {
+	    
+	}
+
+	@When("^user selects search in Tours page$")
+	public void user_selects_search_in_Tours_page() throws Throwable {
+		homepage.enterSearch(); 
 	}
 
 }
