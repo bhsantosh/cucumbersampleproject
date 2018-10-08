@@ -20,13 +20,13 @@ public class TestSteps {
 	HomePage homepage = new HomePage();
 	Flight flight = new Flight();
 	Visa visa = new Visa();
-	
+
 	private Scenario scenario;
 
 	@Before
-    public void before(Scenario scenario) {
-        this.scenario = scenario;
-    }
+	public void before(Scenario scenario) {
+		this.scenario = scenario;
+	}
 
 	@Given("^user opens hotwire page$")
 	public void user_opens_hotwire_page() throws Throwable {
@@ -72,11 +72,43 @@ public class TestSteps {
 
 	}
 
+	@When("^user select Search in visa tab$")
+	public void user_select_Search_in_visa_tab() throws Throwable {
+		visa.enterSearch();
+	}
+
 	@Given("^user tries to book a Hotel room in PHPtravels$")
 	public void user_tries_to_book_a_Hotel_room_in_PHPtravels() throws Throwable {
 		homepage.openPHPTravels();
 		homepage.gotohoteltab();
 
+	}
+
+	@When("^user selects following visa details$")
+	public void user_selects_following_visa_details(List<Map<String, String>> countrys) throws Throwable {
+		for (int i = 0; i < countrys.size(); i++) {
+			String origin = countrys.get(i).get("Origin Country");
+			String distination = countrys.get(i).get("Destination Country");
+
+			Log.info("------------------------------------------------");
+			Log.highlight(origin);
+			Log.highlight(distination);
+			Log.info("------------------------------------------------");
+
+			homepage.gotoVisaTab();
+
+			visa.selectOriginCountry(origin);
+			visa.selectdestinationcountry(distination);
+
+			visa.enterSearch();
+			visa.goBack();
+		}
+
+		// String origin = countrys.get(0).get("Origin Country");
+		// String distination = countrys.get(0).get("Destination Country");
+
+		// visa.selectOriginCountry(origin);
+		// visa.selectdestinationcountry(distination);
 	}
 
 	@When("^user selects follow data$")
@@ -133,14 +165,11 @@ public class TestSteps {
 	 * 
 	 * Test steps for Flight booking Round trip using as
 	 */
-	 
-	 
 
-	
 	@Given("^User opens PHPtravels page and tried to book a fight$")
 	public void user_opens_PHPtravels_page_and_tried_to_book_a_fight() throws Throwable {
 		String url = homepage.openPHPTravels();
-		scenario.write("URL :: "+ url);
+		scenario.write("URL :: " + url);
 		flight.gotoflighttab();
 	}
 
@@ -191,45 +220,42 @@ public class TestSteps {
 		flight.flightSearch();
 
 	}
-	
+
 	@When("^user enter following details$")
-	public void user_enter_following_details(List<Map<String,String>> Value) throws Throwable {
-	    for(int i = 0 ; i< Value.size();i++){
-	    	
-	    	String fligthclass = Value.get(i).get("Fight class");
-	    	String CityName = Value.get(i).get("City Name");
-	    	String DestinationCity = Value.get(i).get("Destination City");
-	    	String Departingdate = Value.get(i).get("Departing date");
-	    	String Returningdate = Value.get(i).get("Returning date");
-	    	String Noofguests = Value.get(i).get("No of guests" );
-	    	
-	    	Log.info("-++++++++++++++++++++++++++++++++++++++++++++++");
-	    	Log.info("fligth class is ::"+fligthclass);
-	    	Log.info("City name from :::"+ CityName);
-	    	Log.info("Destination city name "+ DestinationCity);
-	    	Log.info("Returning city name  ::"+ Returningdate);
-	    	Log.info("No of guests :::"+ Noofguests);
-	    	Log.info("++++++++++++++++++++++++++++++++++++++++++++++++");
-	    	
-	    	flight.selectFlightClass(fligthclass);
-	    	flight.orgairport(CityName);
-	    	flight.desAirportName(DestinationCity);
-	    	flight.departingDate(Departingdate);
-	    	flight.returnDate(Returningdate);
-	    	flight.enterNoOfGuest(Noofguests);
-	    	
-	    	
-	    	
-	    }
+	public void user_enter_following_details(List<Map<String, String>> Value) throws Throwable {
+		for (int i = 0; i < Value.size(); i++) {
+
+			String fligthclass = Value.get(i).get("Fight class");
+			String CityName = Value.get(i).get("City Name");
+			String DestinationCity = Value.get(i).get("Destination City");
+			String Departingdate = Value.get(i).get("Departing date");
+			String Returningdate = Value.get(i).get("Returning date");
+			String Noofguests = Value.get(i).get("No of guests");
+
+			Log.info("-++++++++++++++++++++++++++++++++++++++++++++++");
+			Log.info("fligth class is ::" + fligthclass);
+			Log.info("City name from :::" + CityName);
+			Log.info("Destination city name " + DestinationCity);
+			Log.info("Returning city name  ::" + Returningdate);
+			Log.info("No of guests :::" + Noofguests);
+			Log.info("++++++++++++++++++++++++++++++++++++++++++++++++");
+
+			flight.selectFlightClass(fligthclass);
+			flight.orgairport(CityName);
+			flight.desAirportName(DestinationCity);
+			flight.departingDate(Departingdate);
+			flight.returnDate(Returningdate);
+			flight.enterNoOfGuest(Noofguests);
+
+		}
 	}
-	
+
 	// third scenario for DATA driven testing
-	
-	
+
 	@When("^user select Flight class  \"([^\"]*)\"$")
 	public void user_select_Flight_class(String arg1) throws Throwable {
 		flight.selectFlightClass(arg1);
-	    
+
 	}
 
 	@When("^User enter fligth originating City or Airport \"([^\"]*)\"$")
@@ -257,11 +283,12 @@ public class TestSteps {
 	}
 
 	@When("^User enter no of Guest as (\\d+) Adults, (\\d+) Childs and (\\d+) infant\"([^\"]*)\"$")
-	public void user_enter_no_of_Guest_as_Adults_Childs_and_infant(int arg1, int arg2, int arg3, String arg4) throws Throwable {
-		flight.enterNoOfGuest(arg1,arg2,arg3);
+	public void user_enter_no_of_Guest_as_Adults_Childs_and_infant(int arg1, int arg2, int arg3, String arg4)
+			throws Throwable {
+		flight.enterNoOfGuest(arg1, arg2, arg3);
 
-	}  
-	
+	}
+
 	@Given("^user tries to book a visa in PHPtravels$")
 	public void user_tries_to_book_a_visa_in_PHPtravels() throws Throwable {
 		homepage.openPHPTravels();
@@ -270,15 +297,36 @@ public class TestSteps {
 
 	@But("^user selects origin country as \"([^\"]*)\"$")
 	public void user_selects_origin_country_as(String country) throws Throwable {
-	    visa.selectOriginCountry(country);
+		visa.selectOriginCountry(country);
 	}
 
 	@When("^user select destination country as \"([^\"]*)\"$")
 	public void user_select_destination_country_as(String country) throws Throwable {
 		visa.selectdestinationcountry(country);
-	    
-	}
-
 
 	}
 
+	@When("^user selects origin country \"([^\"]*)\"$")
+	public void user_selects_origin_country(String country) throws Throwable {
+		visa.selectOriginCountry(country);
+	}
+
+	@When("^user selects destination country \"([^\"]*)\"$")
+	public void user_selects_destination_country(String country) throws Throwable {
+		visa.selectdestinationcountry(country);
+
+	}
+
+	@Given("^user tries to subscribe PHPtravels$")
+	public void user_tries_to_subscribe_PHPtravels() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+
+	}
+
+	@When("^user clicks subscribe button$")
+	public void user_clicks_subscribe_button() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+
+	}
+
+}

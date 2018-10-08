@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-//        dryRun = true,
+//         dryRun = true,
 		strict = false,
 		tags = {"@done","~@ignore", "~@depricated", "~@backlog"},
 		plugin={
@@ -25,7 +25,8 @@ import cucumber.api.junit.Cucumber;
 //				"src/test/resources/com/automation/php/BookACar.feature",
 //				"src/test/resources/com/automation/php/BookaHotel.feature",
 //				"src/test/resources/com/automation/php/BookaFlight.feature",
-				"src/test/resources/com/automation/php/BookAVisa.feature",
+				 "src/test/resources/com/automation/php/BookAVisa.feature",
+//				"src/test/resources/com/automation/php/Subscribe.feature",
 			}
 		
 		)
