@@ -363,6 +363,7 @@ public class TestSteps {
 	
 	@When("^user tries to enter cityName as \"([^\"]*)\"$")
 	public void user_tries_to_enter_cityName_as(String arg1) throws Throwable {
+			
 		    
 	}
 
