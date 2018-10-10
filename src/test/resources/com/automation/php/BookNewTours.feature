@@ -9,3 +9,4 @@ And user selects number of guests as "2 Guests"
 And user selects tour type as "Private"
 And user clicks search button
 
+
