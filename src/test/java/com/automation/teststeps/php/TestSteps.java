@@ -5,6 +5,7 @@ import java.util.Map;
 
 import com.automation.php.Flight;
 import com.automation.php.HomePage;
+import com.automation.php.Tours;
 import com.automation.php.Visa;
 import com.automation.utils.Log;
 
@@ -20,8 +21,8 @@ public class TestSteps {
 	HomePage homepage = new HomePage();
 	Flight flight = new Flight();
 	Visa visa = new Visa();
-	/*Tours tours=new Tours();*/
-
+	Tours tour =  new Tours();
+	
 	private Scenario scenario;
 
 	@Before
@@ -64,13 +65,6 @@ public class TestSteps {
 	@When("^user select Search tab$")
 	public void user_select_Search_tab() throws Throwable {
 		homepage.enterSearch();
-
-		/*
-		 * 
-		 * Hotel booking test steps
-		 * 
-		 */
-
 	}
 
 	@When("^user select Search in visa tab$")
@@ -362,9 +356,8 @@ public class TestSteps {
 	}
 	
 	@When("^user tries to enter cityName as \"([^\"]*)\"$")
-	public void user_tries_to_enter_cityName_as(String arg1) throws Throwable {
-			
-		    
+	public void user_tries_to_enter_cityName_as(String cityname) throws Throwable {
+		tour.enterCityName(cityname);
 	}
 
 	@When("^user selects date as \"([^\"]*)\"$")
