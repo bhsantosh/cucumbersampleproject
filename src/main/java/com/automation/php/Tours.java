@@ -30,6 +30,8 @@ public class Tours extends CommonUtils{
 		driver.findElement(By.xpath("//li[contains(@class,'select2-results')]/ul/li")).click();
 	}
 
+
+
 	}
 	
 	

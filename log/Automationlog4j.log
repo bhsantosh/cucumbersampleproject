@@ -6559,3 +6559,2706 @@
 2018-10-10 19:25:04 INFO  : 
 2018-10-10 19:25:04 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
 2018-10-10 19:25:04 INFO  : 
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : 	Browser     : chrome
+2018-10-15 00:05:01 INFO  : 	Zone        : TEST
+2018-10-15 00:05:01 INFO  : 	Log Dir     : /log/
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : ---------------------------------------------------------------------------
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : 
+2018-10-15 00:05:01 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 00:05:01 INFO  : This is Mac OS X
+2018-10-15 00:05:01 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 00:05:04 INFO  : 
+2018-10-15 00:05:04 INFO  : ----------------------------------------------------
+2018-10-15 00:05:04 INFO  : 
+2018-10-15 00:05:04 INFO  : Scenario :: Book a private tour
+2018-10-15 00:05:04 INFO  : 
+2018-10-15 00:05:04 INFO  : ----------------------------------------------------
+2018-10-15 00:05:04 INFO  : 
+2018-10-15 00:05:04 INFO  : 
+2018-10-15 00:05:04 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 00:05:11 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 00:05:11 INFO  : select tour tab
+2018-10-15 00:05:12 INFO  : 
+2018-10-15 00:05:12 INFO  : ----------------------------------------------------
+2018-10-15 00:05:12 INFO  : 
+2018-10-15 00:05:12 INFO  : 
+2018-10-15 00:05:12 INFO  : STATUS : passed
+2018-10-15 00:05:12 INFO  : 
+2018-10-15 00:05:12 INFO  : 
+2018-10-15 00:05:12 INFO  : ----------------------------------------------------
+2018-10-15 00:05:12 INFO  : 
+2018-10-15 00:05:14 INFO  : 
+2018-10-15 00:05:14 WARN  : 
+2018-10-15 00:05:14 WARN  : Driver Quit
+2018-10-15 00:05:14 WARN  : 
+2018-10-15 00:05:14 INFO  : 
+2018-10-15 00:05:14 INFO  : 
+2018-10-15 00:05:14 INFO  : 
+2018-10-15 00:05:14 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-15 00:05:14 INFO  : 
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : 	Browser     : chrome
+2018-10-15 20:17:43 INFO  : 	Zone        : TEST
+2018-10-15 20:17:43 INFO  : 	Log Dir     : /log/
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : 
+2018-10-15 20:17:43 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:17:43 INFO  : This is Mac OS X
+2018-10-15 20:17:43 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:17:46 INFO  : 
+2018-10-15 20:17:46 INFO  : ----------------------------------------------------
+2018-10-15 20:17:46 INFO  : 
+2018-10-15 20:17:46 INFO  : Scenario :: Book a private tour
+2018-10-15 20:17:46 INFO  : 
+2018-10-15 20:17:46 INFO  : ----------------------------------------------------
+2018-10-15 20:17:46 INFO  : 
+2018-10-15 20:17:46 INFO  : 
+2018-10-15 20:17:46 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:17:51 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:17:51 INFO  : select tour tab
+2018-10-15 20:17:51 INFO  : Select CityPusa
+2018-10-15 20:17:52 INFO  : 
+2018-10-15 20:17:52 INFO  : ----------------------------------------------------
+2018-10-15 20:17:52 INFO  : 
+2018-10-15 20:17:52 INFO  : 
+2018-10-15 20:17:52 INFO  : STATUS : passed
+2018-10-15 20:17:52 INFO  : 
+2018-10-15 20:17:52 INFO  : 
+2018-10-15 20:17:52 INFO  : ----------------------------------------------------
+2018-10-15 20:17:52 INFO  : 
+2018-10-15 20:17:54 INFO  : 
+2018-10-15 20:17:54 WARN  : 
+2018-10-15 20:17:54 WARN  : Driver Quit
+2018-10-15 20:17:54 WARN  : 
+2018-10-15 20:17:54 INFO  : 
+2018-10-15 20:17:54 INFO  : 
+2018-10-15 20:17:54 INFO  : 
+2018-10-15 20:17:54 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-15 20:17:54 INFO  : 
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : 	Browser     : chrome
+2018-10-15 20:23:34 INFO  : 	Zone        : TEST
+2018-10-15 20:23:34 INFO  : 	Log Dir     : /log/
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : 
+2018-10-15 20:23:34 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:23:34 INFO  : This is Mac OS X
+2018-10-15 20:23:34 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:23:36 INFO  : 
+2018-10-15 20:23:36 INFO  : ----------------------------------------------------
+2018-10-15 20:23:36 INFO  : 
+2018-10-15 20:23:36 INFO  : Scenario :: Book a private tour
+2018-10-15 20:23:36 INFO  : 
+2018-10-15 20:23:36 INFO  : ----------------------------------------------------
+2018-10-15 20:23:36 INFO  : 
+2018-10-15 20:23:36 INFO  : 
+2018-10-15 20:23:36 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:23:40 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:23:40 INFO  : select tour tab
+2018-10-15 20:23:41 INFO  : Select CityPusa
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : 	Browser     : chrome
+2018-10-15 20:26:20 INFO  : 	Zone        : TEST
+2018-10-15 20:26:20 INFO  : 	Log Dir     : /log/
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : 
+2018-10-15 20:26:20 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:26:20 INFO  : This is Mac OS X
+2018-10-15 20:26:20 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:26:21 INFO  : 
+2018-10-15 20:26:21 INFO  : ----------------------------------------------------
+2018-10-15 20:26:21 INFO  : 
+2018-10-15 20:26:21 INFO  : Scenario :: Book a private tour
+2018-10-15 20:26:21 INFO  : 
+2018-10-15 20:26:21 INFO  : ----------------------------------------------------
+2018-10-15 20:26:21 INFO  : 
+2018-10-15 20:26:22 INFO  : 
+2018-10-15 20:26:22 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:26:26 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:26:26 INFO  : select tour tab
+2018-10-15 20:26:27 INFO  : Select CityPusa
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : 	Browser     : chrome
+2018-10-15 20:28:15 INFO  : 	Zone        : TEST
+2018-10-15 20:28:15 INFO  : 	Log Dir     : /log/
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : 
+2018-10-15 20:28:15 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:28:15 INFO  : This is Mac OS X
+2018-10-15 20:28:15 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:28:16 INFO  : 
+2018-10-15 20:28:16 INFO  : ----------------------------------------------------
+2018-10-15 20:28:16 INFO  : 
+2018-10-15 20:28:16 INFO  : Scenario :: Book a private tour
+2018-10-15 20:28:16 INFO  : 
+2018-10-15 20:28:16 INFO  : ----------------------------------------------------
+2018-10-15 20:28:16 INFO  : 
+2018-10-15 20:28:17 INFO  : 
+2018-10-15 20:28:17 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:28:21 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:28:21 INFO  : select tour tab
+2018-10-15 20:28:21 INFO  : Select CityEgypt
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : 	Browser     : chrome
+2018-10-15 20:32:28 INFO  : 	Zone        : TEST
+2018-10-15 20:32:28 INFO  : 	Log Dir     : /log/
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : 
+2018-10-15 20:32:28 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:32:28 INFO  : This is Mac OS X
+2018-10-15 20:32:28 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:32:30 INFO  : 
+2018-10-15 20:32:30 INFO  : ----------------------------------------------------
+2018-10-15 20:32:30 INFO  : 
+2018-10-15 20:32:30 INFO  : Scenario :: Book a private tour
+2018-10-15 20:32:30 INFO  : 
+2018-10-15 20:32:30 INFO  : ----------------------------------------------------
+2018-10-15 20:32:30 INFO  : 
+2018-10-15 20:32:30 INFO  : 
+2018-10-15 20:32:30 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:32:35 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:32:35 INFO  : select tour tab
+2018-10-15 20:32:36 INFO  : Select CityEgypt
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : 	Browser     : chrome
+2018-10-15 20:46:34 INFO  : 	Zone        : TEST
+2018-10-15 20:46:34 INFO  : 	Log Dir     : /log/
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : 
+2018-10-15 20:46:34 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:46:34 INFO  : This is Mac OS X
+2018-10-15 20:46:34 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:46:36 INFO  : 
+2018-10-15 20:46:36 INFO  : ----------------------------------------------------
+2018-10-15 20:46:36 INFO  : 
+2018-10-15 20:46:36 INFO  : Scenario :: Book a private tour
+2018-10-15 20:46:36 INFO  : 
+2018-10-15 20:46:36 INFO  : ----------------------------------------------------
+2018-10-15 20:46:36 INFO  : 
+2018-10-15 20:46:36 INFO  : 
+2018-10-15 20:46:36 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:46:41 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:46:41 INFO  : select tour tab
+2018-10-15 20:46:41 INFO  : Select CityEgypt
+2018-10-15 20:46:42 INFO  : tour start date 12/01/2018
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : 	Browser     : chrome
+2018-10-15 20:52:23 INFO  : 	Zone        : TEST
+2018-10-15 20:52:23 INFO  : 	Log Dir     : /log/
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : 
+2018-10-15 20:52:23 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:52:23 INFO  : This is Mac OS X
+2018-10-15 20:52:23 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:52:24 INFO  : 
+2018-10-15 20:52:24 INFO  : ----------------------------------------------------
+2018-10-15 20:52:24 INFO  : 
+2018-10-15 20:52:24 INFO  : Scenario :: Book a private tour
+2018-10-15 20:52:24 INFO  : 
+2018-10-15 20:52:24 INFO  : ----------------------------------------------------
+2018-10-15 20:52:24 INFO  : 
+2018-10-15 20:52:25 INFO  : 
+2018-10-15 20:52:25 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:52:29 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:52:29 INFO  : select tour tab
+2018-10-15 20:52:29 INFO  : Select CityEgypt
+2018-10-15 20:52:31 INFO  : tour start date 12/01/2018
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : 	Browser     : chrome
+2018-10-15 20:54:37 INFO  : 	Zone        : TEST
+2018-10-15 20:54:37 INFO  : 	Log Dir     : /log/
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : 
+2018-10-15 20:54:37 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:54:37 INFO  : This is Mac OS X
+2018-10-15 20:54:37 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:54:39 INFO  : 
+2018-10-15 20:54:39 INFO  : ----------------------------------------------------
+2018-10-15 20:54:39 INFO  : 
+2018-10-15 20:54:39 INFO  : Scenario :: Book a private tour
+2018-10-15 20:54:39 INFO  : 
+2018-10-15 20:54:39 INFO  : ----------------------------------------------------
+2018-10-15 20:54:39 INFO  : 
+2018-10-15 20:54:40 INFO  : 
+2018-10-15 20:54:40 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:54:44 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:54:44 INFO  : select tour tab
+2018-10-15 20:54:44 INFO  : Select CityEgypt
+2018-10-15 20:54:45 INFO  : tour start date 12/01/2018
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : 	Browser     : chrome
+2018-10-15 20:55:51 INFO  : 	Zone        : TEST
+2018-10-15 20:55:51 INFO  : 	Log Dir     : /log/
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : 
+2018-10-15 20:55:51 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:55:51 INFO  : This is Mac OS X
+2018-10-15 20:55:51 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:55:53 INFO  : 
+2018-10-15 20:55:53 INFO  : ----------------------------------------------------
+2018-10-15 20:55:53 INFO  : 
+2018-10-15 20:55:53 INFO  : Scenario :: Book a private tour
+2018-10-15 20:55:53 INFO  : 
+2018-10-15 20:55:53 INFO  : ----------------------------------------------------
+2018-10-15 20:55:53 INFO  : 
+2018-10-15 20:55:53 INFO  : 
+2018-10-15 20:55:53 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:55:57 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:55:57 INFO  : select tour tab
+2018-10-15 20:55:58 INFO  : Select CityEgypt
+2018-10-15 20:55:59 INFO  : tour start date 12/01/2018
+2018-10-15 20:58:32 INFO  : 
+2018-10-15 20:58:32 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:58:32 INFO  : 
+2018-10-15 20:58:32 INFO  : 
+2018-10-15 20:58:32 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:58:32 INFO  : 
+2018-10-15 20:58:32 INFO  : 
+2018-10-15 20:58:32 INFO  : 	Browser     : chrome
+2018-10-15 20:58:32 INFO  : 	Zone        : TEST
+2018-10-15 20:58:33 INFO  : 	Log Dir     : /log/
+2018-10-15 20:58:33 INFO  : 
+2018-10-15 20:58:33 INFO  : 
+2018-10-15 20:58:33 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:58:33 INFO  : 
+2018-10-15 20:58:33 INFO  : 
+2018-10-15 20:58:33 INFO  : 
+2018-10-15 20:58:33 INFO  : 
+2018-10-15 20:58:33 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:58:33 INFO  : This is Mac OS X
+2018-10-15 20:58:33 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:58:34 INFO  : 
+2018-10-15 20:58:34 INFO  : ----------------------------------------------------
+2018-10-15 20:58:34 INFO  : 
+2018-10-15 20:58:34 INFO  : Scenario :: Book a private tour
+2018-10-15 20:58:34 INFO  : 
+2018-10-15 20:58:34 INFO  : ----------------------------------------------------
+2018-10-15 20:58:34 INFO  : 
+2018-10-15 20:58:35 INFO  : 
+2018-10-15 20:58:35 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 20:58:39 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 20:58:39 INFO  : select tour tab
+2018-10-15 20:58:40 INFO  : Select CityEgypt
+2018-10-15 20:58:41 INFO  : tour start date 12/01/2018
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : 	Browser     : chrome
+2018-10-15 20:59:58 INFO  : 	Zone        : TEST
+2018-10-15 20:59:58 INFO  : 	Log Dir     : /log/
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : ---------------------------------------------------------------------------
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : 
+2018-10-15 20:59:58 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 20:59:58 INFO  : This is Mac OS X
+2018-10-15 20:59:58 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 20:59:59 INFO  : 
+2018-10-15 20:59:59 INFO  : ----------------------------------------------------
+2018-10-15 20:59:59 INFO  : 
+2018-10-15 20:59:59 INFO  : Scenario :: Book a private tour
+2018-10-15 20:59:59 INFO  : 
+2018-10-15 20:59:59 INFO  : ----------------------------------------------------
+2018-10-15 20:59:59 INFO  : 
+2018-10-15 21:00:00 INFO  : 
+2018-10-15 21:00:00 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 21:00:15 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 21:00:15 INFO  : select tour tab
+2018-10-15 21:00:16 INFO  : Select CityEgypt
+2018-10-15 21:00:17 INFO  : tour start date 12/01/2018
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : 	Browser     : chrome
+2018-10-15 21:05:37 INFO  : 	Zone        : TEST
+2018-10-15 21:05:37 INFO  : 	Log Dir     : /log/
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : ---------------------------------------------------------------------------
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : 
+2018-10-15 21:05:37 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 21:05:37 INFO  : This is Mac OS X
+2018-10-15 21:05:37 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 21:05:38 INFO  : 
+2018-10-15 21:05:38 INFO  : ----------------------------------------------------
+2018-10-15 21:05:38 INFO  : 
+2018-10-15 21:05:38 INFO  : Scenario :: Book a private tour
+2018-10-15 21:05:38 INFO  : 
+2018-10-15 21:05:38 INFO  : ----------------------------------------------------
+2018-10-15 21:05:38 INFO  : 
+2018-10-15 21:05:39 INFO  : 
+2018-10-15 21:05:39 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 21:05:43 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 21:05:43 INFO  : select tour tab
+2018-10-15 21:05:44 INFO  : Select CityEgypt
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : 	Browser     : chrome
+2018-10-15 21:49:29 INFO  : 	Zone        : TEST
+2018-10-15 21:49:29 INFO  : 	Log Dir     : /log/
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : ---------------------------------------------------------------------------
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : 
+2018-10-15 21:49:29 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 21:49:29 INFO  : This is Mac OS X
+2018-10-15 21:49:29 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 21:49:31 INFO  : 
+2018-10-15 21:49:31 INFO  : ----------------------------------------------------
+2018-10-15 21:49:31 INFO  : 
+2018-10-15 21:49:31 INFO  : Scenario :: Book a private tour
+2018-10-15 21:49:31 INFO  : 
+2018-10-15 21:49:31 INFO  : ----------------------------------------------------
+2018-10-15 21:49:31 INFO  : 
+2018-10-15 21:49:31 INFO  : 
+2018-10-15 21:49:31 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 21:49:35 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 21:49:35 INFO  : select tour tab
+2018-10-15 21:49:36 INFO  : Select CityEgypt
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : 	Browser     : chrome
+2018-10-15 21:54:01 INFO  : 	Zone        : TEST
+2018-10-15 21:54:01 INFO  : 	Log Dir     : /log/
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : ---------------------------------------------------------------------------
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : 
+2018-10-15 21:54:01 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 21:54:01 INFO  : This is Mac OS X
+2018-10-15 21:54:01 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 21:54:02 INFO  : 
+2018-10-15 21:54:02 INFO  : ----------------------------------------------------
+2018-10-15 21:54:02 INFO  : 
+2018-10-15 21:54:02 INFO  : Scenario :: Book a private tour
+2018-10-15 21:54:02 INFO  : 
+2018-10-15 21:54:02 INFO  : ----------------------------------------------------
+2018-10-15 21:54:02 INFO  : 
+2018-10-15 21:54:03 INFO  : 
+2018-10-15 21:54:03 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 21:54:07 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 21:54:07 INFO  : select tour tab
+2018-10-15 21:54:08 INFO  : Select CityEgypt
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : 	Browser     : chrome
+2018-10-15 21:59:18 INFO  : 	Zone        : TEST
+2018-10-15 21:59:18 INFO  : 	Log Dir     : /log/
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : ---------------------------------------------------------------------------
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : 
+2018-10-15 21:59:18 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 21:59:18 INFO  : This is Mac OS X
+2018-10-15 21:59:18 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 21:59:20 INFO  : 
+2018-10-15 21:59:20 INFO  : ----------------------------------------------------
+2018-10-15 21:59:20 INFO  : 
+2018-10-15 21:59:20 INFO  : Scenario :: Book a private tour
+2018-10-15 21:59:20 INFO  : 
+2018-10-15 21:59:20 INFO  : ----------------------------------------------------
+2018-10-15 21:59:20 INFO  : 
+2018-10-15 21:59:20 INFO  : 
+2018-10-15 21:59:20 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 21:59:25 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 21:59:25 INFO  : select tour tab
+2018-10-15 21:59:25 INFO  : Select CityEgypt
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : 	Browser     : chrome
+2018-10-15 22:10:01 INFO  : 	Zone        : TEST
+2018-10-15 22:10:01 INFO  : 	Log Dir     : /log/
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : ---------------------------------------------------------------------------
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : 
+2018-10-15 22:10:01 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 22:10:01 INFO  : This is Mac OS X
+2018-10-15 22:10:01 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 22:10:02 INFO  : 
+2018-10-15 22:10:02 INFO  : ----------------------------------------------------
+2018-10-15 22:10:02 INFO  : 
+2018-10-15 22:10:02 INFO  : Scenario :: Book a private tour
+2018-10-15 22:10:02 INFO  : 
+2018-10-15 22:10:02 INFO  : ----------------------------------------------------
+2018-10-15 22:10:02 INFO  : 
+2018-10-15 22:10:03 INFO  : 
+2018-10-15 22:10:03 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 22:10:11 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 22:10:11 INFO  : select tour tab
+2018-10-15 22:10:11 INFO  : Select CityEgypt
+2018-10-15 22:10:13 INFO  : tour start date 12/01/2018
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : 	Browser     : chrome
+2018-10-15 22:10:56 INFO  : 	Zone        : TEST
+2018-10-15 22:10:56 INFO  : 	Log Dir     : /log/
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : ---------------------------------------------------------------------------
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : 
+2018-10-15 22:10:56 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 22:10:56 INFO  : This is Mac OS X
+2018-10-15 22:10:56 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 22:10:57 INFO  : 
+2018-10-15 22:10:57 INFO  : ----------------------------------------------------
+2018-10-15 22:10:57 INFO  : 
+2018-10-15 22:10:57 INFO  : Scenario :: Book a private tour
+2018-10-15 22:10:57 INFO  : 
+2018-10-15 22:10:57 INFO  : ----------------------------------------------------
+2018-10-15 22:10:57 INFO  : 
+2018-10-15 22:10:58 INFO  : 
+2018-10-15 22:10:58 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 22:11:08 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 22:11:08 INFO  : select tour tab
+2018-10-15 22:11:09 INFO  : Select CityEgypt
+2018-10-15 22:11:10 INFO  : tour start date 12/01/2018
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : 	Browser     : chrome
+2018-10-15 22:16:00 INFO  : 	Zone        : TEST
+2018-10-15 22:16:00 INFO  : 	Log Dir     : /log/
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : ---------------------------------------------------------------------------
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : 
+2018-10-15 22:16:00 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 22:16:00 INFO  : This is Mac OS X
+2018-10-15 22:16:00 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 22:16:02 INFO  : 
+2018-10-15 22:16:02 INFO  : ----------------------------------------------------
+2018-10-15 22:16:02 INFO  : 
+2018-10-15 22:16:02 INFO  : Scenario :: Book a private tour
+2018-10-15 22:16:02 INFO  : 
+2018-10-15 22:16:02 INFO  : ----------------------------------------------------
+2018-10-15 22:16:02 INFO  : 
+2018-10-15 22:16:02 INFO  : 
+2018-10-15 22:16:02 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 22:16:06 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 22:16:07 INFO  : select tour tab
+2018-10-15 22:16:07 INFO  : Select CityEgypt
+2018-10-15 22:16:09 INFO  : tour start date 12/01/2018
+2018-10-15 22:16:09 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : 	Browser     : chrome
+2018-10-15 23:10:59 INFO  : 	Zone        : TEST
+2018-10-15 23:10:59 INFO  : 	Log Dir     : /log/
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : ---------------------------------------------------------------------------
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : 
+2018-10-15 23:10:59 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 23:10:59 INFO  : This is Mac OS X
+2018-10-15 23:10:59 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 23:11:01 INFO  : 
+2018-10-15 23:11:01 INFO  : ----------------------------------------------------
+2018-10-15 23:11:01 INFO  : 
+2018-10-15 23:11:01 INFO  : Scenario :: Book a private tour
+2018-10-15 23:11:01 INFO  : 
+2018-10-15 23:11:01 INFO  : ----------------------------------------------------
+2018-10-15 23:11:01 INFO  : 
+2018-10-15 23:11:02 INFO  : 
+2018-10-15 23:11:02 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 23:11:06 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 23:11:06 INFO  : select tour tab
+2018-10-15 23:11:06 INFO  : Select CityEgypt
+2018-10-15 23:11:08 INFO  : tour start date 12/01/2018
+2018-10-15 23:11:08 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : 	Browser     : chrome
+2018-10-15 23:17:57 INFO  : 	Zone        : TEST
+2018-10-15 23:17:57 INFO  : 	Log Dir     : /log/
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : ---------------------------------------------------------------------------
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : 
+2018-10-15 23:17:57 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 23:17:57 INFO  : This is Mac OS X
+2018-10-15 23:17:57 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 23:17:58 INFO  : 
+2018-10-15 23:17:58 INFO  : ----------------------------------------------------
+2018-10-15 23:17:58 INFO  : 
+2018-10-15 23:17:58 INFO  : Scenario :: Book a private tour
+2018-10-15 23:17:58 INFO  : 
+2018-10-15 23:17:58 INFO  : ----------------------------------------------------
+2018-10-15 23:17:58 INFO  : 
+2018-10-15 23:17:59 INFO  : 
+2018-10-15 23:17:59 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 23:18:03 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 23:18:03 INFO  : select tour tab
+2018-10-15 23:18:04 INFO  : Select CityEgypt
+2018-10-15 23:18:05 INFO  : tour start date 12/01/2018
+2018-10-15 23:18:06 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : 	Browser     : chrome
+2018-10-15 23:27:20 INFO  : 	Zone        : TEST
+2018-10-15 23:27:20 INFO  : 	Log Dir     : /log/
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : ---------------------------------------------------------------------------
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : 
+2018-10-15 23:27:20 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 23:27:20 INFO  : This is Mac OS X
+2018-10-15 23:27:20 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 23:27:22 INFO  : 
+2018-10-15 23:27:22 INFO  : ----------------------------------------------------
+2018-10-15 23:27:22 INFO  : 
+2018-10-15 23:27:22 INFO  : Scenario :: Book a private tour
+2018-10-15 23:27:22 INFO  : 
+2018-10-15 23:27:22 INFO  : ----------------------------------------------------
+2018-10-15 23:27:22 INFO  : 
+2018-10-15 23:27:22 INFO  : 
+2018-10-15 23:27:22 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 23:27:27 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 23:27:27 INFO  : select tour tab
+2018-10-15 23:27:27 INFO  : Select CityEgypt
+2018-10-15 23:27:29 INFO  : tour start date 12/01/2018
+2018-10-15 23:27:29 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : 	Browser     : chrome
+2018-10-15 23:36:06 INFO  : 	Zone        : TEST
+2018-10-15 23:36:06 INFO  : 	Log Dir     : /log/
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : ---------------------------------------------------------------------------
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : 
+2018-10-15 23:36:06 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 23:36:06 INFO  : This is Mac OS X
+2018-10-15 23:36:06 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 23:36:08 INFO  : 
+2018-10-15 23:36:08 INFO  : ----------------------------------------------------
+2018-10-15 23:36:08 INFO  : 
+2018-10-15 23:36:08 INFO  : Scenario :: Book a private tour
+2018-10-15 23:36:08 INFO  : 
+2018-10-15 23:36:08 INFO  : ----------------------------------------------------
+2018-10-15 23:36:08 INFO  : 
+2018-10-15 23:36:08 INFO  : 
+2018-10-15 23:36:08 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 23:36:13 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 23:36:13 INFO  : select tour tab
+2018-10-15 23:36:13 INFO  : Select CityEgypt
+2018-10-15 23:36:15 INFO  : tour start date 12/01/2018
+2018-10-15 23:36:15 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : 	Browser     : chrome
+2018-10-15 23:40:02 INFO  : 	Zone        : TEST
+2018-10-15 23:40:02 INFO  : 	Log Dir     : /log/
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : ---------------------------------------------------------------------------
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : 
+2018-10-15 23:40:02 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 23:40:02 INFO  : This is Mac OS X
+2018-10-15 23:40:02 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 23:40:03 INFO  : 
+2018-10-15 23:40:03 INFO  : ----------------------------------------------------
+2018-10-15 23:40:03 INFO  : 
+2018-10-15 23:40:03 INFO  : Scenario :: Book a private tour
+2018-10-15 23:40:03 INFO  : 
+2018-10-15 23:40:03 INFO  : ----------------------------------------------------
+2018-10-15 23:40:03 INFO  : 
+2018-10-15 23:40:04 INFO  : 
+2018-10-15 23:40:04 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 23:40:08 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 23:40:08 INFO  : select tour tab
+2018-10-15 23:40:09 INFO  : Select CityEgypt
+2018-10-15 23:40:10 INFO  : tour start date 12/01/2018
+2018-10-15 23:40:11 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : 	Browser     : chrome
+2018-10-15 23:47:14 INFO  : 	Zone        : TEST
+2018-10-15 23:47:14 INFO  : 	Log Dir     : /log/
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : ---------------------------------------------------------------------------
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : 
+2018-10-15 23:47:14 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 23:47:14 INFO  : This is Mac OS X
+2018-10-15 23:47:14 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 23:47:15 INFO  : 
+2018-10-15 23:47:15 INFO  : ----------------------------------------------------
+2018-10-15 23:47:15 INFO  : 
+2018-10-15 23:47:15 INFO  : Scenario :: Book a private tour
+2018-10-15 23:47:15 INFO  : 
+2018-10-15 23:47:15 INFO  : ----------------------------------------------------
+2018-10-15 23:47:15 INFO  : 
+2018-10-15 23:47:16 INFO  : 
+2018-10-15 23:47:16 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 23:47:20 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 23:47:20 INFO  : select tour tab
+2018-10-15 23:47:20 INFO  : Select CityEgypt
+2018-10-15 23:47:22 INFO  : tour start date 12/01/2018
+2018-10-15 23:47:22 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : 	Browser     : chrome
+2018-10-15 23:50:56 INFO  : 	Zone        : TEST
+2018-10-15 23:50:56 INFO  : 	Log Dir     : /log/
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : ---------------------------------------------------------------------------
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : 
+2018-10-15 23:50:56 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 23:50:56 INFO  : This is Mac OS X
+2018-10-15 23:50:56 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 23:50:58 INFO  : 
+2018-10-15 23:50:58 INFO  : ----------------------------------------------------
+2018-10-15 23:50:58 INFO  : 
+2018-10-15 23:50:58 INFO  : Scenario :: Book a private tour
+2018-10-15 23:50:58 INFO  : 
+2018-10-15 23:50:58 INFO  : ----------------------------------------------------
+2018-10-15 23:50:58 INFO  : 
+2018-10-15 23:50:59 INFO  : 
+2018-10-15 23:50:59 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 23:51:03 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 23:51:03 INFO  : select tour tab
+2018-10-15 23:51:03 INFO  : Select CityEgypt
+2018-10-15 23:51:05 INFO  : tour start date 12/01/2018
+2018-10-15 23:51:05 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : 	Browser     : chrome
+2018-10-15 23:59:19 INFO  : 	Zone        : TEST
+2018-10-15 23:59:19 INFO  : 	Log Dir     : /log/
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : ---------------------------------------------------------------------------
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : 
+2018-10-15 23:59:19 INFO  : -----------> Lunching Chrome <-----------
+2018-10-15 23:59:19 INFO  : This is Mac OS X
+2018-10-15 23:59:19 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-15 23:59:21 INFO  : 
+2018-10-15 23:59:21 INFO  : ----------------------------------------------------
+2018-10-15 23:59:21 INFO  : 
+2018-10-15 23:59:21 INFO  : Scenario :: Book a private tour
+2018-10-15 23:59:21 INFO  : 
+2018-10-15 23:59:21 INFO  : ----------------------------------------------------
+2018-10-15 23:59:21 INFO  : 
+2018-10-15 23:59:21 INFO  : 
+2018-10-15 23:59:21 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-15 23:59:26 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-15 23:59:26 INFO  : select tour tab
+2018-10-15 23:59:27 INFO  : Select CityEgypt
+2018-10-15 23:59:28 INFO  : tour start date 12/01/2018
+2018-10-15 23:59:29 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-15 23:59:29 INFO  : tour type selected ::  Private
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : 	Browser     : chrome
+2018-10-16 00:14:06 INFO  : 	Zone        : TEST
+2018-10-16 00:14:06 INFO  : 	Log Dir     : /log/
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : ---------------------------------------------------------------------------
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : 
+2018-10-16 00:14:06 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 00:14:06 INFO  : This is Mac OS X
+2018-10-16 00:14:06 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 00:14:08 INFO  : 
+2018-10-16 00:14:08 INFO  : ----------------------------------------------------
+2018-10-16 00:14:08 INFO  : 
+2018-10-16 00:14:08 INFO  : Scenario :: Book a private tour
+2018-10-16 00:14:08 INFO  : 
+2018-10-16 00:14:08 INFO  : ----------------------------------------------------
+2018-10-16 00:14:08 INFO  : 
+2018-10-16 00:14:08 INFO  : 
+2018-10-16 00:14:08 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 00:14:12 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 00:14:12 INFO  : select tour tab
+2018-10-16 00:14:12 INFO  : Select CityEgypt
+2018-10-16 00:14:14 INFO  : tour start date 12/01/2018
+2018-10-16 00:14:15 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 00:14:15 INFO  : tour type selected ::  Private
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : 	Browser     : chrome
+2018-10-16 00:21:38 INFO  : 	Zone        : TEST
+2018-10-16 00:21:38 INFO  : 	Log Dir     : /log/
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : ---------------------------------------------------------------------------
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : 
+2018-10-16 00:21:38 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 00:21:38 INFO  : This is Mac OS X
+2018-10-16 00:21:38 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 00:21:40 INFO  : 
+2018-10-16 00:21:40 INFO  : ----------------------------------------------------
+2018-10-16 00:21:40 INFO  : 
+2018-10-16 00:21:40 INFO  : Scenario :: Book a private tour
+2018-10-16 00:21:40 INFO  : 
+2018-10-16 00:21:40 INFO  : ----------------------------------------------------
+2018-10-16 00:21:40 INFO  : 
+2018-10-16 00:21:40 INFO  : 
+2018-10-16 00:21:40 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 00:21:45 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 00:21:45 INFO  : select tour tab
+2018-10-16 00:21:46 INFO  : Select CityEgypt
+2018-10-16 00:21:47 INFO  : tour start date 12/01/2018
+2018-10-16 00:21:48 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 00:21:48 INFO  : tour type selected ::  Private
+2018-10-16 00:21:48 INFO  : Clicking on Search Tab
+2018-10-16 00:21:48 INFO  : 
+2018-10-16 00:21:48 INFO  : ----------------------------------------------------
+2018-10-16 00:21:48 INFO  : 
+2018-10-16 00:21:48 INFO  : 
+2018-10-16 00:21:48 INFO  : STATUS : failed
+2018-10-16 00:21:48 INFO  : 
+2018-10-16 00:21:48 INFO  : 
+2018-10-16 00:21:48 INFO  : ----------------------------------------------------
+2018-10-16 00:21:48 INFO  : 
+2018-10-16 00:21:50 INFO  : 
+2018-10-16 00:21:50 WARN  : 
+2018-10-16 00:21:50 WARN  : Driver Quit
+2018-10-16 00:21:50 WARN  : 
+2018-10-16 00:21:50 INFO  : 
+2018-10-16 00:21:50 INFO  : 
+2018-10-16 00:21:50 INFO  : 
+2018-10-16 00:21:50 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 00:21:50 INFO  : 
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : 	Browser     : chrome
+2018-10-16 00:31:15 INFO  : 	Zone        : TEST
+2018-10-16 00:31:15 INFO  : 	Log Dir     : /log/
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : ---------------------------------------------------------------------------
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : 
+2018-10-16 00:31:15 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 00:31:15 INFO  : This is Mac OS X
+2018-10-16 00:31:15 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 00:31:17 INFO  : 
+2018-10-16 00:31:17 INFO  : ----------------------------------------------------
+2018-10-16 00:31:17 INFO  : 
+2018-10-16 00:31:17 INFO  : Scenario :: Book a private tour
+2018-10-16 00:31:17 INFO  : 
+2018-10-16 00:31:17 INFO  : ----------------------------------------------------
+2018-10-16 00:31:17 INFO  : 
+2018-10-16 00:31:17 INFO  : 
+2018-10-16 00:31:17 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 00:31:22 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 00:31:22 INFO  : select tour tab
+2018-10-16 00:31:22 INFO  : Select CityEgypt
+2018-10-16 00:31:24 INFO  : tour start date 12/01/2018
+2018-10-16 00:31:24 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 00:31:25 INFO  : tour type selected ::  Private
+2018-10-16 00:31:25 INFO  : Clicking on Search Tab
+2018-10-16 00:31:25 INFO  : 
+2018-10-16 00:31:25 INFO  : ----------------------------------------------------
+2018-10-16 00:31:25 INFO  : 
+2018-10-16 00:31:25 INFO  : 
+2018-10-16 00:31:25 INFO  : STATUS : failed
+2018-10-16 00:31:25 INFO  : 
+2018-10-16 00:31:25 INFO  : 
+2018-10-16 00:31:25 INFO  : ----------------------------------------------------
+2018-10-16 00:31:25 INFO  : 
+2018-10-16 00:31:27 INFO  : 
+2018-10-16 00:31:27 WARN  : 
+2018-10-16 00:31:27 WARN  : Driver Quit
+2018-10-16 00:31:27 WARN  : 
+2018-10-16 00:31:27 INFO  : 
+2018-10-16 00:31:27 INFO  : 
+2018-10-16 00:31:27 INFO  : 
+2018-10-16 00:31:27 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 00:31:27 INFO  : 
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : 	Browser     : chrome
+2018-10-16 00:37:33 INFO  : 	Zone        : TEST
+2018-10-16 00:37:33 INFO  : 	Log Dir     : /log/
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : ---------------------------------------------------------------------------
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : 
+2018-10-16 00:37:33 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 00:37:33 INFO  : This is Mac OS X
+2018-10-16 00:37:33 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 00:37:35 INFO  : 
+2018-10-16 00:37:35 INFO  : ----------------------------------------------------
+2018-10-16 00:37:35 INFO  : 
+2018-10-16 00:37:35 INFO  : Scenario :: Book a private tour
+2018-10-16 00:37:35 INFO  : 
+2018-10-16 00:37:35 INFO  : ----------------------------------------------------
+2018-10-16 00:37:35 INFO  : 
+2018-10-16 00:37:35 INFO  : 
+2018-10-16 00:37:35 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 00:37:39 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 00:37:39 INFO  : select tour tab
+2018-10-16 00:37:39 INFO  : Select CityEgypt
+2018-10-16 00:37:41 INFO  : tour start date 12/01/2018
+2018-10-16 00:37:42 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 00:37:42 INFO  : tour type selected ::  Private
+2018-10-16 00:37:42 INFO  : Clicking on Search Tab
+2018-10-16 00:37:42 INFO  : 
+2018-10-16 00:37:42 INFO  : ----------------------------------------------------
+2018-10-16 00:37:42 INFO  : 
+2018-10-16 00:37:42 INFO  : 
+2018-10-16 00:37:42 INFO  : STATUS : failed
+2018-10-16 00:37:42 INFO  : 
+2018-10-16 00:37:42 INFO  : 
+2018-10-16 00:37:42 INFO  : ----------------------------------------------------
+2018-10-16 00:37:42 INFO  : 
+2018-10-16 00:37:44 INFO  : 
+2018-10-16 00:37:44 WARN  : 
+2018-10-16 00:37:44 WARN  : Driver Quit
+2018-10-16 00:37:44 WARN  : 
+2018-10-16 00:37:44 INFO  : 
+2018-10-16 00:37:44 INFO  : 
+2018-10-16 00:37:44 INFO  : 
+2018-10-16 00:37:44 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 00:37:44 INFO  : 
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : 	Browser     : chrome
+2018-10-16 00:38:19 INFO  : 	Zone        : TEST
+2018-10-16 00:38:19 INFO  : 	Log Dir     : /log/
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : ---------------------------------------------------------------------------
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : 
+2018-10-16 00:38:19 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 00:38:19 INFO  : This is Mac OS X
+2018-10-16 00:38:19 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 00:38:21 INFO  : 
+2018-10-16 00:38:21 INFO  : ----------------------------------------------------
+2018-10-16 00:38:21 INFO  : 
+2018-10-16 00:38:21 INFO  : Scenario :: Book a private tour
+2018-10-16 00:38:21 INFO  : 
+2018-10-16 00:38:21 INFO  : ----------------------------------------------------
+2018-10-16 00:38:21 INFO  : 
+2018-10-16 00:38:21 INFO  : 
+2018-10-16 00:38:21 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 00:38:27 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 00:38:27 INFO  : select tour tab
+2018-10-16 00:38:27 INFO  : Select CityEgypt
+2018-10-16 00:38:29 INFO  : tour start date 12/01/2018
+2018-10-16 00:38:29 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 00:38:29 INFO  : tour type selected ::  Private
+2018-10-16 00:38:30 INFO  : Clicking on Search Tab
+2018-10-16 00:38:30 INFO  : 
+2018-10-16 00:38:30 INFO  : ----------------------------------------------------
+2018-10-16 00:38:30 INFO  : 
+2018-10-16 00:38:30 INFO  : 
+2018-10-16 00:38:30 INFO  : STATUS : failed
+2018-10-16 00:38:30 INFO  : 
+2018-10-16 00:38:30 INFO  : 
+2018-10-16 00:38:30 INFO  : ----------------------------------------------------
+2018-10-16 00:38:30 INFO  : 
+2018-10-16 00:38:31 INFO  : 
+2018-10-16 00:38:31 WARN  : 
+2018-10-16 00:38:31 WARN  : Driver Quit
+2018-10-16 00:38:31 WARN  : 
+2018-10-16 00:38:32 INFO  : 
+2018-10-16 00:38:32 INFO  : 
+2018-10-16 00:38:32 INFO  : 
+2018-10-16 00:38:32 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 00:38:32 INFO  : 
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : 	Browser     : chrome
+2018-10-16 19:56:21 INFO  : 	Zone        : TEST
+2018-10-16 19:56:21 INFO  : 	Log Dir     : /log/
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : ---------------------------------------------------------------------------
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : 
+2018-10-16 19:56:21 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 19:56:21 INFO  : This is Mac OS X
+2018-10-16 19:56:21 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 19:56:23 INFO  : 
+2018-10-16 19:56:23 INFO  : ----------------------------------------------------
+2018-10-16 19:56:23 INFO  : 
+2018-10-16 19:56:23 INFO  : Scenario :: Book a private tour
+2018-10-16 19:56:23 INFO  : 
+2018-10-16 19:56:23 INFO  : ----------------------------------------------------
+2018-10-16 19:56:23 INFO  : 
+2018-10-16 19:56:24 INFO  : 
+2018-10-16 19:56:24 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 19:56:28 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 19:56:28 INFO  : select tour tab
+2018-10-16 19:56:28 INFO  : Select CityEgypt
+2018-10-16 19:56:30 INFO  : tour start date 12/01/2018
+2018-10-16 19:56:30 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 19:56:31 INFO  : tour type selected ::  Private
+2018-10-16 19:56:31 INFO  : Clicking on Search Tab
+2018-10-16 19:56:31 INFO  : 
+2018-10-16 19:56:31 INFO  : ----------------------------------------------------
+2018-10-16 19:56:31 INFO  : 
+2018-10-16 19:56:31 INFO  : 
+2018-10-16 19:56:31 INFO  : STATUS : failed
+2018-10-16 19:56:31 INFO  : 
+2018-10-16 19:56:31 INFO  : 
+2018-10-16 19:56:31 INFO  : ----------------------------------------------------
+2018-10-16 19:56:31 INFO  : 
+2018-10-16 19:56:33 INFO  : 
+2018-10-16 19:56:33 WARN  : 
+2018-10-16 19:56:33 WARN  : Driver Quit
+2018-10-16 19:56:33 WARN  : 
+2018-10-16 19:56:33 INFO  : 
+2018-10-16 19:56:33 INFO  : 
+2018-10-16 19:56:33 INFO  : 
+2018-10-16 19:56:33 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 19:56:33 INFO  : 
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : 	Browser     : chrome
+2018-10-16 19:58:48 INFO  : 	Zone        : TEST
+2018-10-16 19:58:48 INFO  : 	Log Dir     : /log/
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : ---------------------------------------------------------------------------
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : 
+2018-10-16 19:58:48 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 19:58:48 INFO  : This is Mac OS X
+2018-10-16 19:58:48 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 19:58:50 INFO  : 
+2018-10-16 19:58:50 INFO  : ----------------------------------------------------
+2018-10-16 19:58:50 INFO  : 
+2018-10-16 19:58:50 INFO  : Scenario :: Book a private tour
+2018-10-16 19:58:50 INFO  : 
+2018-10-16 19:58:50 INFO  : ----------------------------------------------------
+2018-10-16 19:58:50 INFO  : 
+2018-10-16 19:58:51 INFO  : 
+2018-10-16 19:58:51 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 19:58:56 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 19:58:56 INFO  : select tour tab
+2018-10-16 19:58:56 INFO  : Select CityEgypt
+2018-10-16 19:58:58 INFO  : tour start date 12/01/2018
+2018-10-16 19:58:58 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 19:58:58 INFO  : tour type selected ::  Private
+2018-10-16 19:58:58 INFO  : Clicking on Search Tab
+2018-10-16 19:58:59 INFO  : 
+2018-10-16 19:58:59 INFO  : ----------------------------------------------------
+2018-10-16 19:58:59 INFO  : 
+2018-10-16 19:58:59 INFO  : 
+2018-10-16 19:58:59 INFO  : STATUS : failed
+2018-10-16 19:58:59 INFO  : 
+2018-10-16 19:58:59 INFO  : 
+2018-10-16 19:58:59 INFO  : ----------------------------------------------------
+2018-10-16 19:58:59 INFO  : 
+2018-10-16 19:59:00 INFO  : 
+2018-10-16 19:59:00 WARN  : 
+2018-10-16 19:59:00 WARN  : Driver Quit
+2018-10-16 19:59:00 WARN  : 
+2018-10-16 19:59:00 INFO  : 
+2018-10-16 19:59:00 INFO  : 
+2018-10-16 19:59:00 INFO  : 
+2018-10-16 19:59:00 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 19:59:00 INFO  : 
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : 	Browser     : chrome
+2018-10-16 20:04:36 INFO  : 	Zone        : TEST
+2018-10-16 20:04:36 INFO  : 	Log Dir     : /log/
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : ---------------------------------------------------------------------------
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : 
+2018-10-16 20:04:36 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 20:04:36 INFO  : This is Mac OS X
+2018-10-16 20:04:36 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 20:04:38 INFO  : 
+2018-10-16 20:04:38 INFO  : ----------------------------------------------------
+2018-10-16 20:04:38 INFO  : 
+2018-10-16 20:04:38 INFO  : Scenario :: Book a private tour
+2018-10-16 20:04:38 INFO  : 
+2018-10-16 20:04:38 INFO  : ----------------------------------------------------
+2018-10-16 20:04:38 INFO  : 
+2018-10-16 20:04:38 INFO  : 
+2018-10-16 20:04:38 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 20:04:44 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 20:04:44 INFO  : select tour tab
+2018-10-16 20:04:44 INFO  : Select CityEgypt
+2018-10-16 20:04:45 INFO  : tour start date 12/01/2018
+2018-10-16 20:04:46 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 20:04:46 INFO  : tour type selected ::  Private
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : 	Browser     : chrome
+2018-10-16 20:11:50 INFO  : 	Zone        : TEST
+2018-10-16 20:11:50 INFO  : 	Log Dir     : /log/
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : ---------------------------------------------------------------------------
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : 
+2018-10-16 20:11:50 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 20:11:50 INFO  : This is Mac OS X
+2018-10-16 20:11:50 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 20:11:52 INFO  : 
+2018-10-16 20:11:52 INFO  : ----------------------------------------------------
+2018-10-16 20:11:52 INFO  : 
+2018-10-16 20:11:52 INFO  : Scenario :: Book a private tour
+2018-10-16 20:11:52 INFO  : 
+2018-10-16 20:11:52 INFO  : ----------------------------------------------------
+2018-10-16 20:11:52 INFO  : 
+2018-10-16 20:11:52 INFO  : 
+2018-10-16 20:11:52 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 20:11:57 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 20:11:57 INFO  : select tour tab
+2018-10-16 20:11:57 INFO  : Select CityEgypt
+2018-10-16 20:11:59 INFO  : tour start date 12/01/2018
+2018-10-16 20:11:59 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 20:11:59 INFO  : tour type selected ::  Private
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : 	Browser     : chrome
+2018-10-16 20:38:36 INFO  : 	Zone        : TEST
+2018-10-16 20:38:36 INFO  : 	Log Dir     : /log/
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : ---------------------------------------------------------------------------
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : 
+2018-10-16 20:38:36 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 20:38:36 INFO  : This is Mac OS X
+2018-10-16 20:38:36 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 20:38:38 INFO  : 
+2018-10-16 20:38:38 INFO  : ----------------------------------------------------
+2018-10-16 20:38:38 INFO  : 
+2018-10-16 20:38:38 INFO  : Scenario :: Book a private tour
+2018-10-16 20:38:38 INFO  : 
+2018-10-16 20:38:38 INFO  : ----------------------------------------------------
+2018-10-16 20:38:38 INFO  : 
+2018-10-16 20:38:39 INFO  : 
+2018-10-16 20:38:39 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 20:38:43 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 20:38:43 INFO  : select tour tab
+2018-10-16 20:38:44 INFO  : Select CityEgypt
+2018-10-16 20:38:45 INFO  : tour start date 12/01/2018
+2018-10-16 20:38:46 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 20:38:46 INFO  : tour type selected ::  Private
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : 	Browser     : chrome
+2018-10-16 20:41:40 INFO  : 	Zone        : TEST
+2018-10-16 20:41:40 INFO  : 	Log Dir     : /log/
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : ---------------------------------------------------------------------------
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : 
+2018-10-16 20:41:40 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 20:41:40 INFO  : This is Mac OS X
+2018-10-16 20:41:40 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 20:41:42 INFO  : 
+2018-10-16 20:41:42 INFO  : ----------------------------------------------------
+2018-10-16 20:41:42 INFO  : 
+2018-10-16 20:41:42 INFO  : Scenario :: Book a private tour
+2018-10-16 20:41:42 INFO  : 
+2018-10-16 20:41:42 INFO  : ----------------------------------------------------
+2018-10-16 20:41:42 INFO  : 
+2018-10-16 20:41:42 INFO  : 
+2018-10-16 20:41:42 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 20:41:46 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 20:41:46 INFO  : select tour tab
+2018-10-16 20:41:47 INFO  : Select CityEgypt
+2018-10-16 20:41:48 INFO  : tour start date 12/01/2018
+2018-10-16 20:41:49 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 20:41:49 INFO  : tour type selected ::  Private
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : 	Browser     : chrome
+2018-10-16 20:44:32 INFO  : 	Zone        : TEST
+2018-10-16 20:44:32 INFO  : 	Log Dir     : /log/
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : ---------------------------------------------------------------------------
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : 
+2018-10-16 20:44:32 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 20:44:32 INFO  : This is Mac OS X
+2018-10-16 20:44:32 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 20:44:34 INFO  : 
+2018-10-16 20:44:34 INFO  : ----------------------------------------------------
+2018-10-16 20:44:34 INFO  : 
+2018-10-16 20:44:34 INFO  : Scenario :: Book a private tour
+2018-10-16 20:44:34 INFO  : 
+2018-10-16 20:44:34 INFO  : ----------------------------------------------------
+2018-10-16 20:44:34 INFO  : 
+2018-10-16 20:44:34 INFO  : 
+2018-10-16 20:44:34 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 20:44:39 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 20:44:39 INFO  : select tour tab
+2018-10-16 20:44:39 INFO  : Select CityEgypt
+2018-10-16 20:44:41 INFO  : tour start date 12/01/2018
+2018-10-16 20:44:41 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 20:44:41 INFO  : tour type selected ::  Private
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : 	Browser     : chrome
+2018-10-16 21:58:16 INFO  : 	Zone        : TEST
+2018-10-16 21:58:16 INFO  : 	Log Dir     : /log/
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : ---------------------------------------------------------------------------
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : 
+2018-10-16 21:58:16 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 21:58:16 INFO  : This is Mac OS X
+2018-10-16 21:58:16 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 21:58:18 INFO  : 
+2018-10-16 21:58:18 INFO  : ----------------------------------------------------
+2018-10-16 21:58:18 INFO  : 
+2018-10-16 21:58:18 INFO  : Scenario :: Book a private tour
+2018-10-16 21:58:18 INFO  : 
+2018-10-16 21:58:18 INFO  : ----------------------------------------------------
+2018-10-16 21:58:18 INFO  : 
+2018-10-16 21:58:18 INFO  : 
+2018-10-16 21:58:18 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 21:58:25 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 21:58:25 INFO  : select tour tab
+2018-10-16 21:58:25 INFO  : Select CityEgypt
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : 	Browser     : chrome
+2018-10-16 22:00:54 INFO  : 	Zone        : TEST
+2018-10-16 22:00:54 INFO  : 	Log Dir     : /log/
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : 
+2018-10-16 22:00:54 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:00:54 INFO  : This is Mac OS X
+2018-10-16 22:00:54 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:00:56 INFO  : 
+2018-10-16 22:00:56 INFO  : ----------------------------------------------------
+2018-10-16 22:00:56 INFO  : 
+2018-10-16 22:00:56 INFO  : Scenario :: Book a private tour
+2018-10-16 22:00:56 INFO  : 
+2018-10-16 22:00:56 INFO  : ----------------------------------------------------
+2018-10-16 22:00:56 INFO  : 
+2018-10-16 22:00:57 INFO  : 
+2018-10-16 22:00:57 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:01:05 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:01:05 INFO  : select tour tab
+2018-10-16 22:01:06 INFO  : Select CityEgypt
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : 	Browser     : chrome
+2018-10-16 22:03:19 INFO  : 	Zone        : TEST
+2018-10-16 22:03:19 INFO  : 	Log Dir     : /log/
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : 
+2018-10-16 22:03:19 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:03:19 INFO  : This is Mac OS X
+2018-10-16 22:03:19 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:03:21 INFO  : 
+2018-10-16 22:03:21 INFO  : ----------------------------------------------------
+2018-10-16 22:03:21 INFO  : 
+2018-10-16 22:03:21 INFO  : Scenario :: Book a private tour
+2018-10-16 22:03:21 INFO  : 
+2018-10-16 22:03:21 INFO  : ----------------------------------------------------
+2018-10-16 22:03:21 INFO  : 
+2018-10-16 22:03:22 INFO  : 
+2018-10-16 22:03:22 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:03:31 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:03:31 INFO  : select tour tab
+2018-10-16 22:03:31 INFO  : Select CityEgypt
+2018-10-16 22:03:31 INFO  : 
+2018-10-16 22:03:31 INFO  : ----------------------------------------------------
+2018-10-16 22:03:31 INFO  : 
+2018-10-16 22:03:31 INFO  : 
+2018-10-16 22:03:31 INFO  : STATUS : failed
+2018-10-16 22:03:31 INFO  : 
+2018-10-16 22:03:31 INFO  : 
+2018-10-16 22:03:31 INFO  : ----------------------------------------------------
+2018-10-16 22:03:31 INFO  : 
+2018-10-16 22:03:33 INFO  : 
+2018-10-16 22:03:33 WARN  : 
+2018-10-16 22:03:33 WARN  : Driver Quit
+2018-10-16 22:03:33 WARN  : 
+2018-10-16 22:03:33 INFO  : 
+2018-10-16 22:03:33 INFO  : 
+2018-10-16 22:03:33 INFO  : 
+2018-10-16 22:03:33 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:03:33 INFO  : 
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : 	Browser     : chrome
+2018-10-16 22:05:35 INFO  : 	Zone        : TEST
+2018-10-16 22:05:35 INFO  : 	Log Dir     : /log/
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : 
+2018-10-16 22:05:35 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:05:35 INFO  : This is Mac OS X
+2018-10-16 22:05:35 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:05:36 INFO  : 
+2018-10-16 22:05:36 INFO  : ----------------------------------------------------
+2018-10-16 22:05:36 INFO  : 
+2018-10-16 22:05:36 INFO  : Scenario :: Book a private tour
+2018-10-16 22:05:36 INFO  : 
+2018-10-16 22:05:36 INFO  : ----------------------------------------------------
+2018-10-16 22:05:36 INFO  : 
+2018-10-16 22:05:37 INFO  : 
+2018-10-16 22:05:37 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:05:52 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:05:52 INFO  : select tour tab
+2018-10-16 22:05:52 INFO  : Select CityEgypt
+2018-10-16 22:05:52 INFO  : 
+2018-10-16 22:05:52 INFO  : ----------------------------------------------------
+2018-10-16 22:05:52 INFO  : 
+2018-10-16 22:05:52 INFO  : 
+2018-10-16 22:05:52 INFO  : STATUS : failed
+2018-10-16 22:05:52 INFO  : 
+2018-10-16 22:05:52 INFO  : 
+2018-10-16 22:05:52 INFO  : ----------------------------------------------------
+2018-10-16 22:05:52 INFO  : 
+2018-10-16 22:05:54 INFO  : 
+2018-10-16 22:05:54 WARN  : 
+2018-10-16 22:05:54 WARN  : Driver Quit
+2018-10-16 22:05:54 WARN  : 
+2018-10-16 22:05:54 INFO  : 
+2018-10-16 22:05:54 INFO  : 
+2018-10-16 22:05:54 INFO  : 
+2018-10-16 22:05:54 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:05:54 INFO  : 
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : 	Browser     : chrome
+2018-10-16 22:12:00 INFO  : 	Zone        : TEST
+2018-10-16 22:12:00 INFO  : 	Log Dir     : /log/
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : 
+2018-10-16 22:12:00 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:12:00 INFO  : This is Mac OS X
+2018-10-16 22:12:00 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:12:01 INFO  : 
+2018-10-16 22:12:01 INFO  : ----------------------------------------------------
+2018-10-16 22:12:01 INFO  : 
+2018-10-16 22:12:01 INFO  : Scenario :: Book a private tour
+2018-10-16 22:12:01 INFO  : 
+2018-10-16 22:12:01 INFO  : ----------------------------------------------------
+2018-10-16 22:12:01 INFO  : 
+2018-10-16 22:12:02 INFO  : 
+2018-10-16 22:12:02 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:12:13 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:12:13 INFO  : select tour tab
+2018-10-16 22:12:14 INFO  : Select CityEgypt
+2018-10-16 22:12:14 INFO  : 
+2018-10-16 22:12:14 INFO  : ----------------------------------------------------
+2018-10-16 22:12:14 INFO  : 
+2018-10-16 22:12:14 INFO  : 
+2018-10-16 22:12:14 INFO  : STATUS : failed
+2018-10-16 22:12:14 INFO  : 
+2018-10-16 22:12:14 INFO  : 
+2018-10-16 22:12:14 INFO  : ----------------------------------------------------
+2018-10-16 22:12:14 INFO  : 
+2018-10-16 22:12:16 INFO  : 
+2018-10-16 22:12:16 WARN  : 
+2018-10-16 22:12:16 WARN  : Driver Quit
+2018-10-16 22:12:16 WARN  : 
+2018-10-16 22:12:16 INFO  : 
+2018-10-16 22:12:16 INFO  : 
+2018-10-16 22:12:16 INFO  : 
+2018-10-16 22:12:16 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:12:16 INFO  : 
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : 	Browser     : chrome
+2018-10-16 22:17:53 INFO  : 	Zone        : TEST
+2018-10-16 22:17:53 INFO  : 	Log Dir     : /log/
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : 
+2018-10-16 22:17:53 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:17:53 INFO  : This is Mac OS X
+2018-10-16 22:17:53 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:17:55 INFO  : 
+2018-10-16 22:17:55 INFO  : ----------------------------------------------------
+2018-10-16 22:17:55 INFO  : 
+2018-10-16 22:17:55 INFO  : Scenario :: Book a private tour
+2018-10-16 22:17:55 INFO  : 
+2018-10-16 22:17:55 INFO  : ----------------------------------------------------
+2018-10-16 22:17:55 INFO  : 
+2018-10-16 22:17:55 INFO  : 
+2018-10-16 22:17:55 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:18:04 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:18:04 INFO  : select tour tab
+2018-10-16 22:18:04 INFO  : Select CityEgypt
+2018-10-16 22:18:05 INFO  : 
+2018-10-16 22:18:05 INFO  : ----------------------------------------------------
+2018-10-16 22:18:05 INFO  : 
+2018-10-16 22:18:05 INFO  : 
+2018-10-16 22:18:05 INFO  : STATUS : failed
+2018-10-16 22:18:05 INFO  : 
+2018-10-16 22:18:05 INFO  : 
+2018-10-16 22:18:05 INFO  : ----------------------------------------------------
+2018-10-16 22:18:05 INFO  : 
+2018-10-16 22:18:06 INFO  : 
+2018-10-16 22:18:06 WARN  : 
+2018-10-16 22:18:06 WARN  : Driver Quit
+2018-10-16 22:18:06 WARN  : 
+2018-10-16 22:18:07 INFO  : 
+2018-10-16 22:18:07 INFO  : 
+2018-10-16 22:18:07 INFO  : 
+2018-10-16 22:18:07 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:18:07 INFO  : 
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : 	Browser     : chrome
+2018-10-16 22:19:08 INFO  : 	Zone        : TEST
+2018-10-16 22:19:08 INFO  : 	Log Dir     : /log/
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : 
+2018-10-16 22:19:08 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:19:08 INFO  : This is Mac OS X
+2018-10-16 22:19:08 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:19:10 INFO  : 
+2018-10-16 22:19:10 INFO  : ----------------------------------------------------
+2018-10-16 22:19:10 INFO  : 
+2018-10-16 22:19:10 INFO  : Scenario :: Book a private tour
+2018-10-16 22:19:10 INFO  : 
+2018-10-16 22:19:10 INFO  : ----------------------------------------------------
+2018-10-16 22:19:10 INFO  : 
+2018-10-16 22:19:10 INFO  : 
+2018-10-16 22:19:10 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:19:34 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:19:34 INFO  : select tour tab
+2018-10-16 22:19:34 INFO  : Select CityEgypt
+2018-10-16 22:19:35 INFO  : tour start date 12/01/2018
+2018-10-16 22:19:36 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 22:19:36 INFO  : tour type selected ::  Private
+2018-10-16 22:19:36 INFO  : 
+2018-10-16 22:19:36 INFO  : ----------------------------------------------------
+2018-10-16 22:19:36 INFO  : 
+2018-10-16 22:19:36 INFO  : 
+2018-10-16 22:19:36 INFO  : STATUS : failed
+2018-10-16 22:19:36 INFO  : 
+2018-10-16 22:19:36 INFO  : 
+2018-10-16 22:19:36 INFO  : ----------------------------------------------------
+2018-10-16 22:19:36 INFO  : 
+2018-10-16 22:19:37 INFO  : 
+2018-10-16 22:19:37 WARN  : 
+2018-10-16 22:19:37 WARN  : Driver Quit
+2018-10-16 22:19:37 WARN  : 
+2018-10-16 22:19:37 INFO  : 
+2018-10-16 22:19:37 INFO  : 
+2018-10-16 22:19:37 INFO  : 
+2018-10-16 22:19:37 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:19:37 INFO  : 
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : 	Browser     : chrome
+2018-10-16 22:20:28 INFO  : 	Zone        : TEST
+2018-10-16 22:20:28 INFO  : 	Log Dir     : /log/
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : 
+2018-10-16 22:20:28 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:20:28 INFO  : This is Mac OS X
+2018-10-16 22:20:28 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:20:29 INFO  : 
+2018-10-16 22:20:29 INFO  : ----------------------------------------------------
+2018-10-16 22:20:29 INFO  : 
+2018-10-16 22:20:29 INFO  : Scenario :: Book a private tour
+2018-10-16 22:20:29 INFO  : 
+2018-10-16 22:20:29 INFO  : ----------------------------------------------------
+2018-10-16 22:20:29 INFO  : 
+2018-10-16 22:20:30 INFO  : 
+2018-10-16 22:20:30 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:20:43 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:20:43 INFO  : select tour tab
+2018-10-16 22:20:43 INFO  : Select CityEgypt
+2018-10-16 22:20:43 INFO  : 
+2018-10-16 22:20:43 INFO  : ----------------------------------------------------
+2018-10-16 22:20:43 INFO  : 
+2018-10-16 22:20:43 INFO  : 
+2018-10-16 22:20:43 INFO  : STATUS : failed
+2018-10-16 22:20:43 INFO  : 
+2018-10-16 22:20:43 INFO  : 
+2018-10-16 22:20:43 INFO  : ----------------------------------------------------
+2018-10-16 22:20:43 INFO  : 
+2018-10-16 22:20:45 INFO  : 
+2018-10-16 22:20:45 WARN  : 
+2018-10-16 22:20:45 WARN  : Driver Quit
+2018-10-16 22:20:45 WARN  : 
+2018-10-16 22:20:45 INFO  : 
+2018-10-16 22:20:45 INFO  : 
+2018-10-16 22:20:45 INFO  : 
+2018-10-16 22:20:45 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:20:45 INFO  : 
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : 	Browser     : chrome
+2018-10-16 22:21:24 INFO  : 	Zone        : TEST
+2018-10-16 22:21:24 INFO  : 	Log Dir     : /log/
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : 
+2018-10-16 22:21:24 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:21:24 INFO  : This is Mac OS X
+2018-10-16 22:21:24 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:21:26 INFO  : 
+2018-10-16 22:21:26 INFO  : ----------------------------------------------------
+2018-10-16 22:21:26 INFO  : 
+2018-10-16 22:21:26 INFO  : Scenario :: Book a private tour
+2018-10-16 22:21:26 INFO  : 
+2018-10-16 22:21:26 INFO  : ----------------------------------------------------
+2018-10-16 22:21:26 INFO  : 
+2018-10-16 22:21:27 INFO  : 
+2018-10-16 22:21:27 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:21:36 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:21:36 INFO  : select tour tab
+2018-10-16 22:21:36 INFO  : Select CityEgypt
+2018-10-16 22:21:37 INFO  : 
+2018-10-16 22:21:37 INFO  : ----------------------------------------------------
+2018-10-16 22:21:37 INFO  : 
+2018-10-16 22:21:37 INFO  : 
+2018-10-16 22:21:37 INFO  : STATUS : failed
+2018-10-16 22:21:37 INFO  : 
+2018-10-16 22:21:37 INFO  : 
+2018-10-16 22:21:37 INFO  : ----------------------------------------------------
+2018-10-16 22:21:37 INFO  : 
+2018-10-16 22:21:39 INFO  : 
+2018-10-16 22:21:39 WARN  : 
+2018-10-16 22:21:39 WARN  : Driver Quit
+2018-10-16 22:21:39 WARN  : 
+2018-10-16 22:21:39 INFO  : 
+2018-10-16 22:21:39 INFO  : 
+2018-10-16 22:21:39 INFO  : 
+2018-10-16 22:21:39 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:21:39 INFO  : 
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : 	Browser     : chrome
+2018-10-16 22:29:31 INFO  : 	Zone        : TEST
+2018-10-16 22:29:31 INFO  : 	Log Dir     : /log/
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : 
+2018-10-16 22:29:31 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:29:31 INFO  : This is Mac OS X
+2018-10-16 22:29:31 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:29:33 INFO  : 
+2018-10-16 22:29:33 INFO  : ----------------------------------------------------
+2018-10-16 22:29:33 INFO  : 
+2018-10-16 22:29:33 INFO  : Scenario :: Book a private tour
+2018-10-16 22:29:33 INFO  : 
+2018-10-16 22:29:33 INFO  : ----------------------------------------------------
+2018-10-16 22:29:33 INFO  : 
+2018-10-16 22:29:34 INFO  : 
+2018-10-16 22:29:34 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:29:44 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:29:44 INFO  : select tour tab
+2018-10-16 22:29:45 INFO  : Select CityEgypt
+2018-10-16 22:29:45 INFO  : 
+2018-10-16 22:29:45 INFO  : ----------------------------------------------------
+2018-10-16 22:29:45 INFO  : 
+2018-10-16 22:29:45 INFO  : 
+2018-10-16 22:29:45 INFO  : STATUS : failed
+2018-10-16 22:29:45 INFO  : 
+2018-10-16 22:29:45 INFO  : 
+2018-10-16 22:29:45 INFO  : ----------------------------------------------------
+2018-10-16 22:29:45 INFO  : 
+2018-10-16 22:29:47 INFO  : 
+2018-10-16 22:29:47 WARN  : 
+2018-10-16 22:29:47 WARN  : Driver Quit
+2018-10-16 22:29:47 WARN  : 
+2018-10-16 22:29:47 INFO  : 
+2018-10-16 22:29:47 INFO  : 
+2018-10-16 22:29:47 INFO  : 
+2018-10-16 22:29:47 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:29:47 INFO  : 
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : 	Browser     : chrome
+2018-10-16 22:30:31 INFO  : 	Zone        : TEST
+2018-10-16 22:30:31 INFO  : 	Log Dir     : /log/
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : 
+2018-10-16 22:30:31 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:30:31 INFO  : This is Mac OS X
+2018-10-16 22:30:31 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:30:33 INFO  : 
+2018-10-16 22:30:33 INFO  : ----------------------------------------------------
+2018-10-16 22:30:33 INFO  : 
+2018-10-16 22:30:33 INFO  : Scenario :: Book a private tour
+2018-10-16 22:30:33 INFO  : 
+2018-10-16 22:30:33 INFO  : ----------------------------------------------------
+2018-10-16 22:30:33 INFO  : 
+2018-10-16 22:30:33 INFO  : 
+2018-10-16 22:30:33 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:30:39 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:30:39 INFO  : select tour tab
+2018-10-16 22:30:39 INFO  : Select CityEgypt
+2018-10-16 22:30:41 INFO  : tour start date 12/01/2018
+2018-10-16 22:30:41 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 22:30:42 INFO  : tour type selected ::  Private
+2018-10-16 22:30:42 INFO  : 
+2018-10-16 22:30:42 INFO  : ----------------------------------------------------
+2018-10-16 22:30:42 INFO  : 
+2018-10-16 22:30:42 INFO  : 
+2018-10-16 22:30:42 INFO  : STATUS : failed
+2018-10-16 22:30:42 INFO  : 
+2018-10-16 22:30:42 INFO  : 
+2018-10-16 22:30:42 INFO  : ----------------------------------------------------
+2018-10-16 22:30:42 INFO  : 
+2018-10-16 22:30:43 INFO  : 
+2018-10-16 22:30:43 WARN  : 
+2018-10-16 22:30:43 WARN  : Driver Quit
+2018-10-16 22:30:43 WARN  : 
+2018-10-16 22:30:43 INFO  : 
+2018-10-16 22:30:43 INFO  : 
+2018-10-16 22:30:43 INFO  : 
+2018-10-16 22:30:43 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:30:43 INFO  : 
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : 	Browser     : chrome
+2018-10-16 22:31:07 INFO  : 	Zone        : TEST
+2018-10-16 22:31:07 INFO  : 	Log Dir     : /log/
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : ---------------------------------------------------------------------------
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : 
+2018-10-16 22:31:07 INFO  : -----------> Lunching Chrome <-----------
+2018-10-16 22:31:07 INFO  : This is Mac OS X
+2018-10-16 22:31:07 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-16 22:31:09 INFO  : 
+2018-10-16 22:31:09 INFO  : ----------------------------------------------------
+2018-10-16 22:31:09 INFO  : 
+2018-10-16 22:31:09 INFO  : Scenario :: Book a private tour
+2018-10-16 22:31:09 INFO  : 
+2018-10-16 22:31:09 INFO  : ----------------------------------------------------
+2018-10-16 22:31:09 INFO  : 
+2018-10-16 22:31:10 INFO  : 
+2018-10-16 22:31:10 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-16 22:31:16 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-16 22:31:16 INFO  : select tour tab
+2018-10-16 22:31:17 INFO  : Select CityEgypt
+2018-10-16 22:31:18 INFO  : tour start date 12/01/2018
+2018-10-16 22:31:19 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-16 22:31:19 INFO  : tour type selected ::  Private
+2018-10-16 22:31:19 INFO  : 
+2018-10-16 22:31:19 INFO  : ----------------------------------------------------
+2018-10-16 22:31:19 INFO  : 
+2018-10-16 22:31:19 INFO  : 
+2018-10-16 22:31:19 INFO  : STATUS : failed
+2018-10-16 22:31:19 INFO  : 
+2018-10-16 22:31:19 INFO  : 
+2018-10-16 22:31:19 INFO  : ----------------------------------------------------
+2018-10-16 22:31:19 INFO  : 
+2018-10-16 22:31:21 INFO  : 
+2018-10-16 22:31:21 WARN  : 
+2018-10-16 22:31:21 WARN  : Driver Quit
+2018-10-16 22:31:21 WARN  : 
+2018-10-16 22:31:21 INFO  : 
+2018-10-16 22:31:21 INFO  : 
+2018-10-16 22:31:21 INFO  : 
+2018-10-16 22:31:21 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-16 22:31:21 INFO  : 
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : 	Browser     : chrome
+2018-10-17 20:31:46 INFO  : 	Zone        : TEST
+2018-10-17 20:31:46 INFO  : 	Log Dir     : /log/
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : ---------------------------------------------------------------------------
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : 
+2018-10-17 20:31:46 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 20:31:46 INFO  : This is Mac OS X
+2018-10-17 20:31:46 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : ----------------------------------------------------
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : Scenario :: Book a private tour
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : ----------------------------------------------------
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : ----------------------------------------------------
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : STATUS : failed
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : ----------------------------------------------------
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 WARN  : 
+2018-10-17 20:31:48 WARN  : Driver Quit
+2018-10-17 20:31:48 WARN  : 
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:31:48 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 20:31:48 INFO  : 
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : 	Browser     : chrome
+2018-10-17 20:32:46 INFO  : 	Zone        : TEST
+2018-10-17 20:32:46 INFO  : 	Log Dir     : /log/
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : ---------------------------------------------------------------------------
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : 
+2018-10-17 20:32:46 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 20:32:46 INFO  : This is Mac OS X
+2018-10-17 20:32:46 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:48 INFO  : ----------------------------------------------------
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:48 INFO  : Scenario :: Book a private tour
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:48 INFO  : ----------------------------------------------------
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:48 INFO  : ----------------------------------------------------
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:48 INFO  : STATUS : failed
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:48 INFO  : ----------------------------------------------------
+2018-10-17 20:32:48 INFO  : 
+2018-10-17 20:32:49 INFO  : 
+2018-10-17 20:32:49 WARN  : 
+2018-10-17 20:32:49 WARN  : Driver Quit
+2018-10-17 20:32:49 WARN  : 
+2018-10-17 20:32:49 INFO  : 
+2018-10-17 20:32:49 INFO  : 
+2018-10-17 20:32:49 INFO  : 
+2018-10-17 20:32:49 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 20:32:49 INFO  : 
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : 	Browser     : chrome
+2018-10-17 20:33:08 INFO  : 	Zone        : TEST
+2018-10-17 20:33:08 INFO  : 	Log Dir     : /log/
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : ---------------------------------------------------------------------------
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : 
+2018-10-17 20:33:08 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 20:33:08 INFO  : This is Mac OS X
+2018-10-17 20:33:08 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:10 INFO  : ----------------------------------------------------
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:10 INFO  : Scenario :: Book a private tour
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:10 INFO  : ----------------------------------------------------
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:10 INFO  : ----------------------------------------------------
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:10 INFO  : STATUS : failed
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:10 INFO  : ----------------------------------------------------
+2018-10-17 20:33:10 INFO  : 
+2018-10-17 20:33:11 INFO  : 
+2018-10-17 20:33:11 WARN  : 
+2018-10-17 20:33:11 WARN  : Driver Quit
+2018-10-17 20:33:11 WARN  : 
+2018-10-17 20:33:11 INFO  : 
+2018-10-17 20:33:11 INFO  : 
+2018-10-17 20:33:11 INFO  : 
+2018-10-17 20:33:11 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 20:33:11 INFO  : 
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : 	Browser     : chrome
+2018-10-17 20:34:08 INFO  : 	Zone        : TEST
+2018-10-17 20:34:08 INFO  : 	Log Dir     : /log/
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : ---------------------------------------------------------------------------
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : 
+2018-10-17 20:34:08 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 20:34:08 INFO  : This is Mac OS X
+2018-10-17 20:34:08 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 20:34:10 INFO  : 
+2018-10-17 20:34:10 INFO  : ----------------------------------------------------
+2018-10-17 20:34:10 INFO  : 
+2018-10-17 20:34:10 INFO  : Scenario :: Book a private tour
+2018-10-17 20:34:10 INFO  : 
+2018-10-17 20:34:10 INFO  : ----------------------------------------------------
+2018-10-17 20:34:10 INFO  : 
+2018-10-17 20:34:10 INFO  : 
+2018-10-17 20:34:10 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 20:34:15 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 20:34:15 INFO  : select tour tab
+2018-10-17 20:34:15 INFO  : Select CityEgypt
+2018-10-17 20:34:17 INFO  : tour start date 12/01/2018
+2018-10-17 20:34:17 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 20:34:17 INFO  : tour type selected ::  Private
+2018-10-17 20:34:18 INFO  : 
+2018-10-17 20:34:18 INFO  : ----------------------------------------------------
+2018-10-17 20:34:18 INFO  : 
+2018-10-17 20:34:18 INFO  : 
+2018-10-17 20:34:18 INFO  : STATUS : failed
+2018-10-17 20:34:18 INFO  : 
+2018-10-17 20:34:18 INFO  : 
+2018-10-17 20:34:18 INFO  : ----------------------------------------------------
+2018-10-17 20:34:18 INFO  : 
+2018-10-17 20:34:19 INFO  : 
+2018-10-17 20:34:19 WARN  : 
+2018-10-17 20:34:19 WARN  : Driver Quit
+2018-10-17 20:34:19 WARN  : 
+2018-10-17 20:34:19 INFO  : 
+2018-10-17 20:34:19 INFO  : 
+2018-10-17 20:34:19 INFO  : 
+2018-10-17 20:34:19 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 20:34:19 INFO  : 
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : 	Browser     : chrome
+2018-10-17 20:37:42 INFO  : 	Zone        : TEST
+2018-10-17 20:37:42 INFO  : 	Log Dir     : /log/
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : ---------------------------------------------------------------------------
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : 
+2018-10-17 20:37:42 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 20:37:42 INFO  : This is Mac OS X
+2018-10-17 20:37:42 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 20:37:44 INFO  : 
+2018-10-17 20:37:44 INFO  : ----------------------------------------------------
+2018-10-17 20:37:44 INFO  : 
+2018-10-17 20:37:44 INFO  : Scenario :: Book a private tour
+2018-10-17 20:37:44 INFO  : 
+2018-10-17 20:37:44 INFO  : ----------------------------------------------------
+2018-10-17 20:37:44 INFO  : 
+2018-10-17 20:37:44 INFO  : 
+2018-10-17 20:37:44 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 20:37:49 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 20:37:49 INFO  : select tour tab
+2018-10-17 20:37:49 INFO  : Select CityEgypt
+2018-10-17 20:37:51 INFO  : tour start date 12/01/2018
+2018-10-17 20:37:51 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 20:37:51 INFO  : tour type selected ::  Private
+2018-10-17 20:37:51 INFO  : 
+2018-10-17 20:37:51 INFO  : ----------------------------------------------------
+2018-10-17 20:37:51 INFO  : 
+2018-10-17 20:37:51 INFO  : 
+2018-10-17 20:37:51 INFO  : STATUS : failed
+2018-10-17 20:37:51 INFO  : 
+2018-10-17 20:37:51 INFO  : 
+2018-10-17 20:37:51 INFO  : ----------------------------------------------------
+2018-10-17 20:37:51 INFO  : 
+2018-10-17 20:37:53 INFO  : 
+2018-10-17 20:37:53 WARN  : 
+2018-10-17 20:37:53 WARN  : Driver Quit
+2018-10-17 20:37:53 WARN  : 
+2018-10-17 20:37:53 INFO  : 
+2018-10-17 20:37:53 INFO  : 
+2018-10-17 20:37:53 INFO  : 
+2018-10-17 20:37:53 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 20:37:53 INFO  : 
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : 	Browser     : chrome
+2018-10-17 20:51:36 INFO  : 	Zone        : TEST
+2018-10-17 20:51:36 INFO  : 	Log Dir     : /log/
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : ---------------------------------------------------------------------------
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : 
+2018-10-17 20:51:36 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 20:51:36 INFO  : This is Mac OS X
+2018-10-17 20:51:36 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 20:51:38 INFO  : 
+2018-10-17 20:51:38 INFO  : ----------------------------------------------------
+2018-10-17 20:51:38 INFO  : 
+2018-10-17 20:51:38 INFO  : Scenario :: Book a private tour
+2018-10-17 20:51:38 INFO  : 
+2018-10-17 20:51:38 INFO  : ----------------------------------------------------
+2018-10-17 20:51:38 INFO  : 
+2018-10-17 20:51:38 INFO  : 
+2018-10-17 20:51:38 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 20:51:43 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 20:51:43 INFO  : select tour tab
+2018-10-17 20:51:43 INFO  : Select CityEgypt
+2018-10-17 20:51:45 INFO  : tour start date 12/01/2018
+2018-10-17 20:51:45 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 20:51:45 INFO  : tour type selected ::  Private
+2018-10-17 20:51:45 INFO  : 
+2018-10-17 20:51:45 INFO  : ----------------------------------------------------
+2018-10-17 20:51:45 INFO  : 
+2018-10-17 20:51:45 INFO  : 
+2018-10-17 20:51:45 INFO  : STATUS : failed
+2018-10-17 20:51:45 INFO  : 
+2018-10-17 20:51:45 INFO  : 
+2018-10-17 20:51:45 INFO  : ----------------------------------------------------
+2018-10-17 20:51:45 INFO  : 
+2018-10-17 20:51:47 INFO  : 
+2018-10-17 20:51:47 WARN  : 
+2018-10-17 20:51:47 WARN  : Driver Quit
+2018-10-17 20:51:47 WARN  : 
+2018-10-17 20:51:47 INFO  : 
+2018-10-17 20:51:47 INFO  : 
+2018-10-17 20:51:47 INFO  : 
+2018-10-17 20:51:47 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 20:51:47 INFO  : 
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : 	Browser     : chrome
+2018-10-17 21:00:11 INFO  : 	Zone        : TEST
+2018-10-17 21:00:11 INFO  : 	Log Dir     : /log/
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : ---------------------------------------------------------------------------
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : 
+2018-10-17 21:00:11 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 21:00:11 INFO  : This is Mac OS X
+2018-10-17 21:00:11 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 21:00:13 INFO  : 
+2018-10-17 21:00:13 INFO  : ----------------------------------------------------
+2018-10-17 21:00:13 INFO  : 
+2018-10-17 21:00:13 INFO  : Scenario :: Book a private tour
+2018-10-17 21:00:13 INFO  : 
+2018-10-17 21:00:13 INFO  : ----------------------------------------------------
+2018-10-17 21:00:13 INFO  : 
+2018-10-17 21:00:14 INFO  : 
+2018-10-17 21:00:14 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 21:00:19 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 21:00:19 INFO  : select tour tab
+2018-10-17 21:00:19 INFO  : Select CityEgypt
+2018-10-17 21:00:21 INFO  : tour start date 12/01/2018
+2018-10-17 21:00:21 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 21:00:21 INFO  : tour type selected ::  Private
+2018-10-17 21:00:22 INFO  : 
+2018-10-17 21:00:22 INFO  : ----------------------------------------------------
+2018-10-17 21:00:22 INFO  : 
+2018-10-17 21:00:22 INFO  : 
+2018-10-17 21:00:22 INFO  : STATUS : failed
+2018-10-17 21:00:22 INFO  : 
+2018-10-17 21:00:22 INFO  : 
+2018-10-17 21:00:22 INFO  : ----------------------------------------------------
+2018-10-17 21:00:22 INFO  : 
+2018-10-17 21:00:23 INFO  : 
+2018-10-17 21:00:23 WARN  : 
+2018-10-17 21:00:23 WARN  : Driver Quit
+2018-10-17 21:00:23 WARN  : 
+2018-10-17 21:00:23 INFO  : 
+2018-10-17 21:00:23 INFO  : 
+2018-10-17 21:00:23 INFO  : 
+2018-10-17 21:00:23 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 21:00:23 INFO  : 
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : 	Browser     : chrome
+2018-10-17 21:05:57 INFO  : 	Zone        : TEST
+2018-10-17 21:05:57 INFO  : 	Log Dir     : /log/
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : ---------------------------------------------------------------------------
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : 
+2018-10-17 21:05:57 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 21:05:57 INFO  : This is Mac OS X
+2018-10-17 21:05:57 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 21:05:59 INFO  : 
+2018-10-17 21:05:59 INFO  : ----------------------------------------------------
+2018-10-17 21:05:59 INFO  : 
+2018-10-17 21:05:59 INFO  : Scenario :: Book a private tour
+2018-10-17 21:05:59 INFO  : 
+2018-10-17 21:05:59 INFO  : ----------------------------------------------------
+2018-10-17 21:05:59 INFO  : 
+2018-10-17 21:05:59 INFO  : 
+2018-10-17 21:05:59 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 21:06:03 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 21:06:03 INFO  : select tour tab
+2018-10-17 21:06:04 INFO  : Select CityEgypt
+2018-10-17 21:06:06 INFO  : tour start date 12/01/2018
+2018-10-17 21:06:06 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 21:06:06 INFO  : tour type selected ::  Private
+2018-10-17 21:06:06 INFO  : 
+2018-10-17 21:06:06 INFO  : ----------------------------------------------------
+2018-10-17 21:06:06 INFO  : 
+2018-10-17 21:06:06 INFO  : 
+2018-10-17 21:06:06 INFO  : STATUS : failed
+2018-10-17 21:06:06 INFO  : 
+2018-10-17 21:06:06 INFO  : 
+2018-10-17 21:06:06 INFO  : ----------------------------------------------------
+2018-10-17 21:06:06 INFO  : 
+2018-10-17 21:06:08 INFO  : 
+2018-10-17 21:06:08 WARN  : 
+2018-10-17 21:06:08 WARN  : Driver Quit
+2018-10-17 21:06:08 WARN  : 
+2018-10-17 21:06:08 INFO  : 
+2018-10-17 21:06:08 INFO  : 
+2018-10-17 21:06:08 INFO  : 
+2018-10-17 21:06:08 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 21:06:08 INFO  : 
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : 	Browser     : chrome
+2018-10-17 21:33:09 INFO  : 	Zone        : TEST
+2018-10-17 21:33:09 INFO  : 	Log Dir     : /log/
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : ---------------------------------------------------------------------------
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : 
+2018-10-17 21:33:09 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 21:33:09 INFO  : This is Mac OS X
+2018-10-17 21:33:09 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 21:33:10 INFO  : 
+2018-10-17 21:33:10 INFO  : ----------------------------------------------------
+2018-10-17 21:33:10 INFO  : 
+2018-10-17 21:33:10 INFO  : Scenario :: Book a private tour
+2018-10-17 21:33:10 INFO  : 
+2018-10-17 21:33:10 INFO  : ----------------------------------------------------
+2018-10-17 21:33:10 INFO  : 
+2018-10-17 21:33:11 INFO  : 
+2018-10-17 21:33:11 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 21:33:15 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 21:33:15 INFO  : select tour tab
+2018-10-17 21:33:15 INFO  : Select CityEgypt
+2018-10-17 21:33:17 INFO  : tour start date 12/01/2018
+2018-10-17 21:33:18 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 21:33:18 INFO  : tour type selected ::  Private
+2018-10-17 21:33:18 INFO  : Clicking on Search Tab
+2018-10-17 21:33:19 INFO  : 
+2018-10-17 21:33:19 INFO  : ----------------------------------------------------
+2018-10-17 21:33:19 INFO  : 
+2018-10-17 21:33:19 INFO  : 
+2018-10-17 21:33:19 INFO  : STATUS : passed
+2018-10-17 21:33:19 INFO  : 
+2018-10-17 21:33:19 INFO  : 
+2018-10-17 21:33:19 INFO  : ----------------------------------------------------
+2018-10-17 21:33:19 INFO  : 
+2018-10-17 21:33:20 INFO  : 
+2018-10-17 21:33:20 WARN  : 
+2018-10-17 21:33:20 WARN  : Driver Quit
+2018-10-17 21:33:20 WARN  : 
+2018-10-17 21:33:20 INFO  : 
+2018-10-17 21:33:20 INFO  : 
+2018-10-17 21:33:20 INFO  : 
+2018-10-17 21:33:20 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 21:33:20 INFO  : 
+2018-10-17 21:36:45 INFO  : 
+2018-10-17 21:36:45 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 21:36:45 INFO  : 
+2018-10-17 21:36:45 INFO  : 
+2018-10-17 21:36:45 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 21:36:45 INFO  : 
+2018-10-17 21:36:45 INFO  : 
+2018-10-17 21:36:46 INFO  : 	Browser     : chrome
+2018-10-17 21:36:46 INFO  : 	Zone        : TEST
+2018-10-17 21:36:46 INFO  : 	Log Dir     : /log/
+2018-10-17 21:36:46 INFO  : 
+2018-10-17 21:36:46 INFO  : 
+2018-10-17 21:36:46 INFO  : ---------------------------------------------------------------------------
+2018-10-17 21:36:46 INFO  : 
+2018-10-17 21:36:46 INFO  : 
+2018-10-17 21:36:46 INFO  : 
+2018-10-17 21:36:46 INFO  : 
+2018-10-17 21:36:46 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 21:36:46 INFO  : This is Mac OS X
+2018-10-17 21:36:46 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 21:36:47 INFO  : 
+2018-10-17 21:36:47 INFO  : ----------------------------------------------------
+2018-10-17 21:36:47 INFO  : 
+2018-10-17 21:36:47 INFO  : Scenario :: Book a private tour
+2018-10-17 21:36:47 INFO  : 
+2018-10-17 21:36:47 INFO  : ----------------------------------------------------
+2018-10-17 21:36:47 INFO  : 
+2018-10-17 21:36:48 INFO  : 
+2018-10-17 21:36:48 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 21:36:52 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 21:36:52 INFO  : select tour tab
+2018-10-17 21:36:52 INFO  : Select CityEgypt
+2018-10-17 21:36:54 INFO  : tour start date 12/01/2018
+2018-10-17 21:36:54 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 21:36:55 INFO  : tour type selected ::  Private
+2018-10-17 21:36:55 INFO  : Clicking on Search Tab
+2018-10-17 21:36:56 INFO  : 
+2018-10-17 21:36:56 INFO  : ----------------------------------------------------
+2018-10-17 21:36:56 INFO  : 
+2018-10-17 21:36:56 INFO  : 
+2018-10-17 21:36:56 INFO  : STATUS : passed
+2018-10-17 21:36:56 INFO  : 
+2018-10-17 21:36:56 INFO  : 
+2018-10-17 21:36:56 INFO  : ----------------------------------------------------
+2018-10-17 21:36:56 INFO  : 
+2018-10-17 21:36:57 INFO  : 
+2018-10-17 21:36:57 WARN  : 
+2018-10-17 21:36:57 WARN  : Driver Quit
+2018-10-17 21:36:57 WARN  : 
+2018-10-17 21:36:57 INFO  : 
+2018-10-17 21:36:57 INFO  : 
+2018-10-17 21:36:57 INFO  : 
+2018-10-17 21:36:57 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 21:36:57 INFO  : 
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : 	Browser     : chrome
+2018-10-17 21:44:16 INFO  : 	Zone        : TEST
+2018-10-17 21:44:16 INFO  : 	Log Dir     : /log/
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : ---------------------------------------------------------------------------
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : 
+2018-10-17 21:44:16 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 21:44:16 INFO  : This is Mac OS X
+2018-10-17 21:44:16 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 21:44:18 INFO  : 
+2018-10-17 21:44:18 INFO  : ----------------------------------------------------
+2018-10-17 21:44:18 INFO  : 
+2018-10-17 21:44:18 INFO  : Scenario :: Book a private tour
+2018-10-17 21:44:18 INFO  : 
+2018-10-17 21:44:18 INFO  : ----------------------------------------------------
+2018-10-17 21:44:18 INFO  : 
+2018-10-17 21:44:18 INFO  : 
+2018-10-17 21:44:18 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 21:44:25 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 21:44:25 INFO  : select tour tab
+2018-10-17 21:44:25 INFO  : Select CityEgypt
+2018-10-17 21:44:27 INFO  : tour start date 12/01/2018
+2018-10-17 21:44:28 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 21:44:28 INFO  : tour type selected ::  Private
+2018-10-17 21:44:28 INFO  : Clicking on Search Tab
+2018-10-17 21:44:29 INFO  : 
+2018-10-17 21:44:29 INFO  : ----------------------------------------------------
+2018-10-17 21:44:29 INFO  : 
+2018-10-17 21:44:29 INFO  : 
+2018-10-17 21:44:29 INFO  : STATUS : passed
+2018-10-17 21:44:29 INFO  : 
+2018-10-17 21:44:29 INFO  : 
+2018-10-17 21:44:29 INFO  : ----------------------------------------------------
+2018-10-17 21:44:29 INFO  : 
+2018-10-17 21:44:30 INFO  : 
+2018-10-17 21:44:30 WARN  : 
+2018-10-17 21:44:30 WARN  : Driver Quit
+2018-10-17 21:44:30 WARN  : 
+2018-10-17 21:44:30 INFO  : 
+2018-10-17 21:44:30 INFO  : 
+2018-10-17 21:44:30 INFO  : 
+2018-10-17 21:44:30 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 21:44:30 INFO  : 
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : 	Browser     : chrome
+2018-10-17 21:45:08 INFO  : 	Zone        : TEST
+2018-10-17 21:45:08 INFO  : 	Log Dir     : /log/
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : ---------------------------------------------------------------------------
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : 
+2018-10-17 21:45:08 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 21:45:08 INFO  : This is Mac OS X
+2018-10-17 21:45:08 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 21:45:10 INFO  : 
+2018-10-17 21:45:10 INFO  : ----------------------------------------------------
+2018-10-17 21:45:10 INFO  : 
+2018-10-17 21:45:10 INFO  : Scenario :: Book a private tour
+2018-10-17 21:45:10 INFO  : 
+2018-10-17 21:45:10 INFO  : ----------------------------------------------------
+2018-10-17 21:45:10 INFO  : 
+2018-10-17 21:45:10 INFO  : 
+2018-10-17 21:45:10 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 21:45:14 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 21:45:14 INFO  : select tour tab
+2018-10-17 21:45:15 INFO  : Select CityEgypt
+2018-10-17 21:45:17 INFO  : tour start date 12/01/2018
+2018-10-17 21:45:17 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 21:45:17 INFO  : tour type selected ::  Private
+2018-10-17 21:45:17 INFO  : Clicking on Search Tab
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 INFO  : ----------------------------------------------------
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 INFO  : STATUS : passed
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 INFO  : ----------------------------------------------------
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 WARN  : 
+2018-10-17 21:45:19 WARN  : Driver Quit
+2018-10-17 21:45:19 WARN  : 
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:45:19 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 21:45:19 INFO  : 
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : $$$$$$$$$$$$$$$$$$$$$$$    -S-T-A-R-T-    $$$$$$$$$$$$$$$$$$$$$$$
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : ------------------------ TESTCASE SETUP --------------------------------- 
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : 	Browser     : chrome
+2018-10-17 21:48:03 INFO  : 	Zone        : TEST
+2018-10-17 21:48:03 INFO  : 	Log Dir     : /log/
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : ---------------------------------------------------------------------------
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : 
+2018-10-17 21:48:03 INFO  : -----------> Lunching Chrome <-----------
+2018-10-17 21:48:03 INFO  : This is Mac OS X
+2018-10-17 21:48:03 INFO  : Driver Location :: /Users/kaflepratik/Desktop/AutomationGitRepo/cucumbersampleproject/lib/SeleniumGrid/driver/chromedriver
+2018-10-17 21:48:05 INFO  : 
+2018-10-17 21:48:05 INFO  : ----------------------------------------------------
+2018-10-17 21:48:05 INFO  : 
+2018-10-17 21:48:05 INFO  : Scenario :: Book a private tour
+2018-10-17 21:48:05 INFO  : 
+2018-10-17 21:48:05 INFO  : ----------------------------------------------------
+2018-10-17 21:48:05 INFO  : 
+2018-10-17 21:48:05 INFO  : 
+2018-10-17 21:48:05 INFO  : Opening URL : https://www.phptravels.net/
+2018-10-17 21:48:09 INFO  : PHPTRAVELS | Travel Technology Partner
+2018-10-17 21:48:09 INFO  : select tour tab
+2018-10-17 21:48:09 INFO  : Select City = Egypt
+2018-10-17 21:48:11 INFO  : Tour start date = 12/01/2018
+2018-10-17 21:48:11 INFO  : Selecting no of Guests provied which is :: 3 Guests
+2018-10-17 21:48:12 INFO  : tour type selected ::  Private
+2018-10-17 21:48:12 INFO  : Clicking on Search Tab
+2018-10-17 21:48:13 INFO  : 
+2018-10-17 21:48:13 INFO  : ----------------------------------------------------
+2018-10-17 21:48:13 INFO  : 
+2018-10-17 21:48:13 INFO  : 
+2018-10-17 21:48:13 INFO  : STATUS : passed
+2018-10-17 21:48:13 INFO  : 
+2018-10-17 21:48:13 INFO  : 
+2018-10-17 21:48:13 INFO  : ----------------------------------------------------
+2018-10-17 21:48:13 INFO  : 
+2018-10-17 21:48:14 INFO  : 
+2018-10-17 21:48:14 WARN  : 
+2018-10-17 21:48:14 WARN  : Driver Quit
+2018-10-17 21:48:14 WARN  : 
+2018-10-17 21:48:14 INFO  : 
+2018-10-17 21:48:14 INFO  : 
+2018-10-17 21:48:14 INFO  : 
+2018-10-17 21:48:14 INFO  : XXXXXXXXXXXXXXXXXXXXXXX    -E--N--D-    XXXXXXXXXXXXXXXXXXXXXX
+2018-10-17 21:48:14 INFO  : 

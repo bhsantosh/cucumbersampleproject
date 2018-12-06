@@ -6,6 +6,7 @@ import java.util.Map;
 import com.automation.php.Flight;
 import com.automation.php.HomePage;
 import com.automation.php.Tours;
+import com.automation.php.ToursPratik;
 import com.automation.php.Visa;
 import com.automation.utils.Log;
 
@@ -22,6 +23,7 @@ public class TestSteps {
 	Flight flight = new Flight();
 	Visa visa = new Visa();
 	Tours tour =  new Tours();
+	ToursPratik tourPratik = new ToursPratik();
 	
 	private Scenario scenario;
 
@@ -378,6 +380,45 @@ public class TestSteps {
 	@When("^user clicks search button$")
 	public void user_clicks_search_button() throws Throwable {
 	
+	}
+	
+//	 pratik tours
+	
+	@Given("^user tries to book a private tour in PHPtravels$")
+	public void user_tries_to_book_a_private_tour_in_PHPtravels() throws Throwable {
+		homepage.openPHPTravels();
+		tourPratik.selectTour();
+	   
+	}
+
+	@When("^user select the city as \"([^\"]*)\"$")
+	public void user_select_the_city_as(String cityName) throws Throwable {
+		tourPratik.selectCity(cityName);
+
+	}
+
+	@When("^user select the date as \"([^\"]*)\"$")
+	public void user_select_the_date_as(String date) throws Throwable {
+		tourPratik.tourStartDate(date);
+		
+	}
+
+	@When("^user select no of Guests as \"([^\"]*)\"$")
+	public void user_select_no_of_Guests_as(String number) throws Throwable {
+		tourPratik.noOfGuest(number);
+
+	}
+
+	@When("^user select tour type as \"([^\"]*)\"$")
+	public void user_select_tour_type_as(String type) throws Throwable {
+		tourPratik.tourType(type);
+
+	}
+
+	@When("^user select Search in tours tab$")
+	public void user_select_Search_in_tours_tab() throws Throwable {
+		tourPratik.tourSearch();
+
 	}
 
 }
