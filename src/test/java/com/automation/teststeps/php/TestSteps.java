@@ -6,7 +6,6 @@ import java.util.Map;
 import com.automation.php.Flight;
 import com.automation.php.HomePage;
 import com.automation.php.Tours;
-import com.automation.php.ToursPratik;
 import com.automation.php.Visa;
 import com.automation.utils.Log;
 
@@ -23,7 +22,7 @@ public class TestSteps {
 	Flight flight = new Flight();
 	Visa visa = new Visa();
 	Tours tour =  new Tours();
-	ToursPratik tourPratik = new ToursPratik();
+//	ToursPratik tourPratik = new ToursPratik();
 	
 	private Scenario scenario;
 
@@ -384,7 +383,7 @@ public class TestSteps {
 	
 //	 pratik tours
 	
-	@Given("^user tries to book a private tour in PHPtravels$")
+	/*@Given("^user tries to book a private tour in PHPtravels$")
 	public void user_tries_to_book_a_private_tour_in_PHPtravels() throws Throwable {
 		homepage.openPHPTravels();
 		tourPratik.selectTour();
@@ -419,6 +418,6 @@ public class TestSteps {
 	public void user_select_Search_in_tours_tab() throws Throwable {
 		tourPratik.tourSearch();
 
-	}
+	}*/
 
 }
