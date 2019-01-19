@@ -350,6 +350,9 @@ public class TestSteps {
 		homepage.enterSearch(); 
 	}
 */
+	
+	//Robin Tours
+	
 	@Given("^user tries to book tours$")
 	public void user_tries_to_book_tours() throws Throwable {
 	   homepage.openPHPTravels();
@@ -360,26 +363,32 @@ public class TestSteps {
 	public void user_tries_to_enter_cityName_as(String cityname) throws Throwable {
 		tour.enterCityName(cityname);
 	}
-
-	@When("^user selects date as \"([^\"]*)\"$")
-	public void user_selects_date_as(String arg1) throws Throwable {
-	   
-	}
-
-	@When("^user selects number of guests as \"([^\"]*)\"$")
-	public void user_selects_number_of_guests_as(String arg1) throws Throwable {
-	    
-	}
-
-	@When("^user selects tour type as \"([^\"]*)\"$")
-	public void user_selects_tour_type_as(String arg1) throws Throwable {
-	    
-	}
-
-	@When("^user clicks search button$")
-	public void user_clicks_search_button() throws Throwable {
 	
+	@When("^user selects following tour details$")
+	public void user_selects_following_tour_details(List<Map<String, String>> values) throws Throwable {
+	    for (int i=0; i<values.size(); i++)
+	    {
+	    	String tourCityName = values.get(i).get("City Name");
+	    	String tourDate = values.get(i).get("Tour Date");
+	    	String tourNoOfGuests=values.get(i).get("No Of Guests");
+	    	String tourType=values.get(i).get("Tour Type");
+	    	
+	    	Log.info("-----------------------");
+	    	Log.info("---"+tourCityName);
+	    	Log.info("---"+tourDate);
+	    	Log.info("---"+tourNoOfGuests);
+	    	Log.info("---"+tourType);
+	   	    	
+	    	tour.enterCityName(tourCityName);
+	    	tour.enterTourDate(tourDate);
+	    	tour.enterTourGuests(tourNoOfGuests);
+	    	tour.enterTourType(tourType);
+	    	tour.clickSearch();
+	    	
+	    	
+	    }
 	}
+
 	
 //	 pratik tours
 	
@@ -419,5 +428,4 @@ public class TestSteps {
 		tourPratik.tourSearch();
 
 	}*/
-
 }

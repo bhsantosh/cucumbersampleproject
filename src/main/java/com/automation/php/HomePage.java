@@ -10,8 +10,6 @@ import com.automation.utils.CommonUtils;
 import com.automation.utils.Log;
 import com.automation.utils.PropertyManager;
 
-import net.bytebuddy.asm.Advice.Enter;
-
 public class HomePage extends CommonUtils{
 
 	private final String car = "//*[(@data-title='CARS')]";
@@ -33,7 +31,7 @@ public class HomePage extends CommonUtils{
 	private final String Childaddplus = "//*[(@id=\"childPlusBtn\")]";
 	private final String searchhotel = "//div[@id='HOTELS']//button[@type='submit']/i";
 	private final String visa = "//*[contains(@href,'VISA')]";
-	private final String tours="//*[(@data-title='TOURS')]";
+	private final String tours="//*[(@title='Tours')]";
 	
 	/*private final String Checkin="//*[]";*/
 	
@@ -184,6 +182,8 @@ public class HomePage extends CommonUtils{
 	
 	public void gotoToursTab(){
 		Log.info("Go to Tours Tab");
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(tours)));
 		driver.findElement(By.xpath(tours)).click();
 	}
 	
